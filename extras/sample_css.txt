@@ -1,0 +1,4809 @@
+#body {
+    background-color: grey;
+    line-height: normal;
+    z-index: 1
+    }
+/*** POST TITLES ***/
+.thing .title.loggedin.click, .thing .title.click {
+    color: #a85a20
+    }
+.thing .title.loggedin.click:visited, .thing .title.click:visited {
+    color: #af5614
+    }
+.thing .title.loggedin, .thing .title {
+    color: black
+    }
+.thing .title.loggedin:visited, .thing .title:visited {
+    color: #666
+    }
+/*** ENABLE ENOUGH SPACE FOR CUSTOM ARROWS ***/
+.link .midcol {
+    padding-right: 4px
+    }
+.link .score.dislikes {
+    color: black
+    }
+#header-bottom-right {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=2naynsiy1v5n0wgbnbpplb011gc5da0iogn3);
+    padding: 5px;
+    text-transform: uppercase;
+    -moz-border-radius-topleft: 7px;
+    -webkit-border-top-left-radius: 7px
+    }
+#header-bottom-right a {
+    color: #808080;
+    font-size: 10px
+    }
+#header-bottom-left {
+    padding: 10px 0 0
+    }
+.pagename {
+    margin-right: 0
+    }
+.pagename a {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_2.png?v=jylbp7ay8yzm7czbf9q5mxcxyi4x9qk36c4m);
+    background-repeat: no-repeat;
+    font-size: 1px;
+    padding: 43px 146px 0 0;
+    color: #565656;
+    left: -30px;
+    position: relative;
+    top: 9px
+    }
+#header-bottom-left .tabmenu li.selected a {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_4.png?v=ix55l1fh2xtio7y6tr22d58fcgggrbrrsmbo);
+    color: black;
+    border-width: 0
+    }
+#header-bottom-left .tabmenu {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=y52n9qjbkq8ffg994eaq96mzvtm0h0f54l3p);
+    padding: 10px;
+    -moz-border-radius-topleft: 7px;
+    -webkit-border-top-left-radius: 7px;
+    -moz-border-radius-topright: 7px;
+    -webkit-border-top-right-radius: 7px;
+    font-size: 10px;
+    bottom: 0
+    }
+#header-bottom-left .tabmenu li a {
+    color: white;
+    text-transform: uppercase;
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=33vb8csfwo1r90ik5lu1nhlb8p8ih7g56pg0);
+    margin: 0 5px;
+    padding: 5px
+    }
+#header-bottom-left .tabmenu li a:hover {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_15.png?v=ezo5ix7p710mcvcn5r1hqw0kjp6cg0h4nhmq)
+    }
+#header-bottom-left .tabmenu li.selected a:hover {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_4.png?v=3zk9yp1i6bdassf59gaf0fo9cszfn3gv4y1b)
+    }
+#header-bottom-left .tabmenu li {
+    margin: 0
+    }
+#sr-header-area {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=jhmya3z43gzewzobp0hpnhoabc61e9ai5473);
+    border-bottom: 0px
+    }
+#header {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_15.png?v=gq4tmlo8rig3dnfyvxbpe6zakfonwrwe3w0f);
+    padding: 0;
+    border-bottom: 2px solid black
+    }
+.sr-bar a {
+    color: #A0A0A0;
+    font-size: 10px
+    }
+.sr-bar a:hover, #sr-bar a:active {
+    color: #AF5614;
+    text-decoration: none
+    }
+.sr-header-area .selected a {
+    color: #d88704
+    }
+.dropdown.srdrop .selected {
+    color: #808080
+    }
+#header-img {
+    margin: -8px 0 -12px;
+    padding-right: 10px
+    }
+/*** ARROWS UP/DOWNMODS ***/
+.arrow.upmod {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_9.png?v=t0wdg8awo42iafsatey3w3x87rzb9e1xk1ek);
+    background-position: 0 0
+    }
+.arrow.downmod {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_8.png?v=h1abqnq1ageplny28p4uy89mlvgaa9euyixb);
+    background-position: 0 0
+    }
+.arrow.up {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_11.png?v=t7cqzmew9y4ssw2sqsmdypvpb327ilygzvz7);
+    background-position: 0 0;
+    opacity: 0.65
+    }
+.arrow.down {
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_5.png?v=ku3qgkmk92pjvd0eo5h78tk63od3gvi9o7z4);
+    background-position: 0 0;
+    opacity: 0.65
+    }
+/*CUSTOM MAIL ICONS*/
+/* Credit ElusiveMoose */
+#mail.nohavemail:after {
+    content: url(http://thumbs.reddit.com/t5_2rgyt_0.png?v=ywasfpl1m5dcajlqpb26n4v7guk18c06xoau);
+    vertical-align: middle
+    }
+#mail.havemail:after {
+    content: url(http://thumbs.reddit.com/t5_2rgyt_12.png?v=av0yorpkzazu50gii0uahqfb4r60a9ul4e5a);
+    vertical-align: middle
+    }
+#mail.nohavemail img, #mail.havemail img {
+    display: none
+    }
+/*SIDEBAR GRAPHIC*/
+.side {
+    /* Change the padding-top px to the height of the image */
+    padding-top: 393px;
+    padding-right: 1px;
+    /* change the background-image to whatever you want */
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_13.png?v=ntbdluppufi2pqc882fbyw5661amooti9ra9);
+    /* leave these properties as is */
+    background-repeat: no-repeat
+    }
+.author:after {
+    padding-left: 3px;
+    font-size: xx-small
+    }
+.author[href$="/-Anders"]:after {
+    content: "(Danish danish)[360]"
+    }
+.author[href$="/-mikew-"]:after {
+    content: "(sellout)[PC]"
+    }
+.author[href$="/-SnowMan-"]:after {
+    content: "(ChrisT, SnowMan)[PC]"
+    }
+.author[href$="//* OH FUCK MY LIFE */"]:after {
+    content: "(/* FUCK IT */)[PC]"
+    }
+.author[href$="/124816"]:after {
+    content: "(Blue42)[PC]"
+    }
+.author[href$="/1anonymous"]:after {
+    content: "(http://steamcommunity.com/profiles/)[PC]"
+    }
+.author[href$="/A119"]:after {
+    content: "(redacted)[PS3]"
+    }
+.author[href$="/abienz"]:after {
+    content: "(Blaise69)[360]"
+    }
+.author[href$="/abxftw"]:after {
+    content: "(Lawl?Abx)[PC]"
+    }
+.author[href$="/Acke86"]:after {
+    content: "(d3ffi)[PC]"
+    }
+.author[href$="/addythebat"]:after {
+    content: "(addythebat)[PS3]"
+    }
+.author[href$="/admlcrunch"]:after {
+    content: "(admlcrunch)[360]"
+    }
+.author[href$="/adsf"]:after {
+    content: "(fda)[PC]"
+    }
+.author[href$="/advkyle"]:after {
+    content: "(postalbob)[PC]"
+    }
+.author[href$="/aeronix"]:after {
+    content: "(aeronix)[PC]"
+    }
+.author[href$="/Aevirith"]:after {
+    content: "(Aidonis)[PC]"
+    }
+.author[href$="/afinalsunset732"]:after {
+    content: "(IzanPuos)[PC]"
+    }
+.author[href$="/AFuddyDuddy"]:after {
+    content: "(S.S.Hot Rocks)[PC]"
+    }
+.author[href$="/aFuYo"]:after {
+    content: "([aFu])[PC]"
+    }
+.author[href$="/Agoo"]:after {
+    content: "(Scruffie)[PC]"
+    }
+.author[href$="/aguywhoisme"]:after {
+    content: "(Andromeda)[PC]"
+    }
+.author[href$="/Ahrk"]:after {
+    content: "(Art Brut)[PC]"
+    }
+.author[href$="/Aiblol"]:after {
+    content: "(AibloL)[PC]"
+    }
+.author[href$="/AichGee"]:after {
+    content: "(Aich_Gee)[PC]"
+    }
+.author[href$="/Aicop"]:after {
+    content: "(Aicop)[PC]"
+    }
+.author[href$="/Aiml3ss"]:after {
+    content: "(Aiml3ss)[PC]"
+    }
+.author[href$="/akinari42"]:after {
+    content: "(akinari42)[PS3]"
+    }
+.author[href$="/alaughinmoose"]:after {
+    content: "(a_laughin_moose)[PC]"
+    }
+.author[href$="/alexcroox"]:after {
+    content: "(Green Giant)[PC]"
+    }
+.author[href$="/AlLnAtuRalX"]:after {
+    content: "(kingnerd)[PC]"
+    }
+.author[href$="/AlphaLima"]:after {
+    content: "(Disodium85)[360]"
+    }
+.author[href$="/Altonrak"]:after {
+    content: "(Altonrak)[360]"
+    }
+.author[href$="/altrdgenetics"]:after {
+    content: "(ALTrd Genetics)[PC]"
+    }
+.author[href$="/Alucardbsm"]:after {
+    content: "(Long Arm Alu)[PC]"
+    }
+.author[href$="/alxxer"]:after {
+    content: "(alexxer13)[PS3]"
+    }
+.author[href$="/amaxen"]:after {
+    content: "(amaxen)[360]"
+    }
+.author[href$="/Amburka"]:after {
+    content: "(C01N)[360]"
+    }
+.author[href$="/amokoura"]:after {
+    content: "(amokoura)[360]"
+    }
+.author[href$="/Amrosorma"]:after {
+    content: "(Amrosorma)[PC]"
+    }
+.author[href$="/ams87"]:after {
+    content: "(edachs)[360]"
+    }
+.author[href$="/An indoor cat"]:after {
+    content: "(An indoor cat)[360]"
+    }
+.author[href$="/analbumcover"]:after {
+    content: "(Chris the Mute)[360]"
+    }
+.author[href$="/andersaur"]:after {
+    content: "(TheAndersaur)[360]"
+    }
+.author[href$="/Andrazh"]:after {
+    content: "(Silouette)[PC]"
+    }
+.author[href$="/andrewbash"]:after {
+    content: "(supern1nja)[PC]"
+    }
+.author[href$="/andyandthetuna"]:after {
+    content: "(snapcount321)[PS3]"
+    }
+.author[href$="/Aneurysm-Em"]:after {
+    content: "(Wpg Mad Moe)[360]"
+    }
+.author[href$="/anewaccountagain"]:after {
+    content: "(holocaust2121)[360]"
+    }
+.author[href$="/anewmaven"]:after {
+    content: "(kuma-yan)[PC]"
+    }
+.author[href$="/ang3c0"]:after {
+    content: "(ang3c0)[PC]"
+    }
+.author[href$="/anime_wars"]:after {
+    content: "(thejavalad)[PC]"
+    }
+.author[href$="/ankjevel"]:after {
+    content: "(ankjevel)[PS3]"
+    }
+.author[href$="/anogrebattle"]:after {
+    content: "(AnOgreBattle)[PC]"
+    }
+.author[href$="/AnthonyA7"]:after {
+    content: "(TonyAshley)[PS3]"
+    }
+.author[href$="/anthrax704"]:after {
+    content: "(scudworth)[PC]"
+    }
+.author[href$="/Anticontrame"]:after {
+    content: "(Anticontrame)[PS3]"
+    }
+.author[href$="/Anubis77"]:after {
+    content: "(Osiris77)[PC]"
+    }
+.author[href$="/anunnakian"]:after {
+    content: "(anunnakian)[PC]"
+    }
+.author[href$="/apimpnamedchip"]:after {
+    content: "(apimmpnamedchip)[PS3]"
+    }
+.author[href$="/apple_juice_break"]:after {
+    content: "(AppleJuiceBreak)[PS3]"
+    }
+.author[href$="/arch4ngel"]:after {
+    content: "(s1lv3rsp1d3r)[PC]"
+    }
+.author[href$="/ArcisCannae"]:after {
+    content: "(amokoura)[360]"
+    }
+.author[href$="/ares1486"]:after {
+    content: "(Arestia)[PS3]"
+    }
+.author[href$="/Armagin"]:after {
+    content: "(Armagin)[PC]"
+    }
+.author[href$="/armchairnixon"]:after {
+    content: "(Armchair Nixon)[360]"
+    }
+.author[href$="/Armitage1"]:after {
+    content: "(Tocamek)[PC]"
+    }
+.author[href$="/armoredIdealist"]:after {
+    content: "(device heretic)[PC]"
+    }
+.author[href$="/Artificial"]:after {
+    content: "(Deth Nightbane)[PC]"
+    }
+.author[href$="/ArtlessDodger"]:after {
+    content: "(Masterchieba)[360]"
+    }
+.author[href$="/as4nt"]:after {
+    content: "(Suicidal00)[PC]"
+    }
+.author[href$="/ascagnel"]:after {
+    content: "(screemindemon)[PC]"
+    }
+.author[href$="/Asdity"]:after {
+    content: "(Egotype)[360]"
+    }
+.author[href$="/ashleyw"]:after {
+    content: "()[360]"
+    }
+.author[href$="/askier"]:after {
+    content: "(theborises)[PC]"
+    }
+.author[href$="/asmith1243"]:after {
+    content: "(asmith1243)[PC]"
+    }
+.author[href$="/ASouthernGentleman"]:after {
+    content: "(Olivero)[360]"
+    }
+.author[href$="/Ass4ssinX"]:after {
+    content: "(Ass4sslnX)[PS3]"
+    }
+.author[href$="/AssumeDirectControl"]:after {
+    content: "(Malaycious)[360]"
+    }
+.author[href$="/AStonedWalrus"]:after {
+    content: "(Vinces)[PC]"
+    }
+.author[href$="/asystole"]:after {
+    content: "(Asystole88)[PC]"
+    }
+.author[href$="/ateryx"]:after {
+    content: "(skunks)[PC]"
+    }
+.author[href$="/AtheismFTW"]:after {
+    content: "(Bad Religion 42)[360]"
+    }
+.author[href$="/atomicxblade"]:after {
+    content: "(atomicxblade)[360]"
+    }
+.author[href$="/Atroxide"]:after {
+    content: "(Atroxidor)[PC]"
+    }
+.author[href$="/AttackingHobo"]:after {
+    content: "(AttackingHobo)[PC]"
+    }
+.author[href$="/attilathefun"]:after {
+    content: "(Attilathefun)[PC]"
+    }
+.author[href$="/attrition0"]:after {
+    content: "(attrition0)[PC]"
+    }
+.author[href$="/atxtech"]:after {
+    content: "(atxtech)[360]"
+    }
+.author[href$="/audioclown"]:after {
+    content: "(AUDIOCLOWN)[PC]"
+    }
+.author[href$="/augreeko"]:after {
+    content: "(InnnnTheFaaaace)[360]"
+    }
+.author[href$="/auldnic"]:after {
+    content: "(auldnic)[PC]"
+    }
+.author[href$="/Aussie_Rocker"]:after {
+    content: "(Aussie_Rocker)[PC]"
+    }
+.author[href$="/autovertical"]:after {
+    content: "(autovertical)[PC]"
+    }
+.author[href$="/average_amoeba"]:after {
+    content: "(average_amoeba)[PC]"
+    }
+.author[href$="/awesomebro"]:after {
+    content: "(awesomebro)[PC]"
+    }
+.author[href$="/awkwardcity"]:after {
+    content: "(Igziaber)[PC]"
+    }
+.author[href$="/awox"]:after {
+    content: "(AWOX)[PC]"
+    }
+.author[href$="/axxle"]:after {
+    content: "(axxle)[PC]"
+    }
+.author[href$="/Azimalicous"]:after {
+    content: "(Azimalicous)[360]"
+    }
+.author[href$="/azncookiecutter"]:after {
+    content: "(tim the pimp)[PC]"
+    }
+.author[href$="/a_theist"]:after {
+    content: "(Zerschaender)[PC]"
+    }
+.author[href$="/BackspaceMan"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/baconite"]:after {
+    content: "(zcamax)[PS3]"
+    }
+.author[href$="/Baconmccord"]:after {
+    content: "(Baconmccord)[360]"
+    }
+.author[href$="/badjedi"]:after {
+    content: "(BigBangJedi)[360]"
+    }
+.author[href$="/badmathafacka"]:after {
+    content: "(Le_Juancito)[PC]"
+    }
+.author[href$="/baelion"]:after {
+    content: "(Munkeefish)[360]"
+    }
+.author[href$="/bald3rdash"]:after {
+    content: "(CapnSmitty)[PS3]"
+    }
+.author[href$="/bamsebomsen"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/banan4"]:after {
+    content: "(KILLER BANAN4)[360]"
+    }
+.author[href$="/bananahammockjr"]:after {
+    content: "(bananahammockjr)[PC]"
+    }
+.author[href$="/bandomafia"]:after {
+    content: "(mbeans27)[360]"
+    }
+.author[href$="/BanterDTD"]:after {
+    content: "(Banter)[PC]"
+    }
+.author[href$="/barney13"]:after {
+    content: "(CrazyCamels)[PS3]"
+    }
+.author[href$="/barnsleynut"]:after {
+    content: "(barnsleynut)[360]"
+    }
+.author[href$="/BASGTA"]:after {
+    content: "(BASGTA)[PC]"
+    }
+.author[href$="/BBHoss"]:after {
+    content: "(BBhoss)[PC]"
+    }
+.author[href$="/bctrainers"]:after {
+    content: "(bctrainers)[PC]"
+    }
+.author[href$="/BCVietcong"]:after {
+    content: "(Superganja23)[PC]"
+    }
+.author[href$="/bdol"]:after {
+    content: "(dolh)[360]"
+    }
+.author[href$="/BearBryant"]:after {
+    content: "(Stang289GT)[360]"
+    }
+.author[href$="/BeardyDuck"]:after {
+    content: "(BeardyDuck)[PC]"
+    }
+.author[href$="/Beatnick"]:after {
+    content: "(IIINlCK)[360]"
+    }
+.author[href$="/beckh4m"]:after {
+    content: "(numb3rS1X)[PS3]"
+    }
+.author[href$="/Beefstyles"]:after {
+    content: "(Beefstyles)[PC]"
+    }
+.author[href$="/beezeyb"]:after {
+    content: "(RBeezey)[360]"
+    }
+.author[href$="/BennyBenassi"]:after {
+    content: "(Ganjatron)[PC]"
+    }
+.author[href$="/betterthanastick"]:after {
+    content: "(Betterthanastick)[PC]"
+    }
+.author[href$="/bierbauch"]:after {
+    content: "(krieger13)[PC]"
+    }
+.author[href$="/bilbo79"]:after {
+    content: "(nullcipher)[360]"
+    }
+.author[href$="/bizarroterrell"]:after {
+    content: "(bizarroterrell)[360]"
+    }
+.author[href$="/blackfuse70"]:after {
+    content: "(Blackfuse)[PS3]"
+    }
+.author[href$="/BlackJack313"]:after {
+    content: "(BlackJack313)[PC]"
+    }
+.author[href$="/blackmars0"]:after {
+    content: "(blackmars0)[PC]"
+    }
+.author[href$="/blackn1ght"]:after {
+    content: "(blackn1ght)[PC]"
+    }
+.author[href$="/BlackPocket"]:after {
+    content: "(ResolutePanic)[360]"
+    }
+.author[href$="/blackyoda"]:after {
+    content: "(blackyoda)[PC]"
+    }
+.author[href$="/Black_Ash_Heir"]:after {
+    content: "(CitricCapybara)[360]"
+    }
+.author[href$="/blade740"]:after {
+    content: "(eido740)[360]"
+    }
+.author[href$="/Blade9932"]:after {
+    content: "(Blade9932)[PC]"
+    }
+.author[href$="/blahblah77"]:after {
+    content: "([ + ])[PC]"
+    }
+.author[href$="/Blakbeanie"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/blohkdu"]:after {
+    content: "(Meat Sandwich)[PC]"
+    }
+.author[href$="/Bloqhead"]:after {
+    content: "(Bloqhead)[360]"
+    }
+.author[href$="/BlueApeJim"]:after {
+    content: "(BlueApeJim)[PS3]"
+    }
+.author[href$="/blue_horse_shoe"]:after {
+    content: "(Brown_Flavour)[PC]"
+    }
+.author[href$="/Bluko"]:after {
+    content: "(WorkingDead)[PS3]"
+    }
+.author[href$="/bluwolfe"]:after {
+    content: "(bluwolfe)[PC]"
+    }
+.author[href$="/blzed"]:after {
+    content: "(Zedman)[PC]"
+    }
+.author[href$="/bmuse"]:after {
+    content: "(PlacingClaymore)[360]"
+    }
+.author[href$="/bntly"]:after {
+    content: "([>_>]bntly)[PC]"
+    }
+.author[href$="/boarmelon"]:after {
+    content: "(Boarmelon)[PC]"
+    }
+.author[href$="/BobbyDash"]:after {
+    content: "(B0BBY DASH)[360]"
+    }
+.author[href$="/Bobinator2000"]:after {
+    content: "(Bobinator2000)[PC]"
+    }
+.author[href$="/Boglizk"]:after {
+    content: "(Boglizk)[PC]"
+    }
+.author[href$="/BoiledFrogs"]:after {
+    content: "(CrazyCanuck90)[PC]"
+    }
+.author[href$="/bonecows"]:after {
+    content: "(bonecows)[360]"
+    }
+.author[href$="/boostedhoo"]:after {
+    content: "(boostedhoo)[360]"
+    }
+.author[href$="/boringlove"]:after {
+    content: "(genetics.)[PC]"
+    }
+.author[href$="/borque"]:after {
+    content: "(Veiny Spear)[360]"
+    }
+.author[href$="/boudreau"]:after {
+    content: "(xIronPortx)[360]"
+    }
+.author[href$="/Bowadges"]:after {
+    content: "(Bandages)[PC]"
+    }
+.author[href$="/Boxaman"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/bpp198"]:after {
+    content: "(tavva)[PS3]"
+    }
+.author[href$="/Brad777"]:after {
+    content: "(Brad777)[PC]"
+    }
+.author[href$="/braid"]:after {
+    content: "(braid1)[PC]"
+    }
+.author[href$="/Brainrip"]:after {
+    content: "(Lezamn)[360]"
+    }
+.author[href$="/Brandx1982"]:after {
+    content: "(brandx1982)[360]"
+    }
+.author[href$="/Branflakes1117"]:after {
+    content: "(Branflakes1117)[360]"
+    }
+.author[href$="/brickhouseuni"]:after {
+    content: "(Dr P Cox)[360]"
+    }
+.author[href$="/Briid"]:after {
+    content: "(briid)[PC]"
+    }
+.author[href$="/BROBOCOP_FTW"]:after {
+    content: "(BROBOCOP FTW)[360]"
+    }
+.author[href$="/brocccoli"]:after {
+    content: "(gero88)[PS3]"
+    }
+.author[href$="/brownsound00"]:after {
+    content: "(lastdoc0048)[PS3]"
+    }
+.author[href$="/bryan05"]:after {
+    content: "(bryancadc05)[PS3]"
+    }
+.author[href$="/btardinrehab"]:after {
+    content: "(playtawin1214)[PS3]"
+    }
+.author[href$="/BTT2"]:after {
+    content: "(BronsonTwist)[360]"
+    }
+.author[href$="/bubba2nark"]:after {
+    content: "(bubbz)[PC]"
+    }
+.author[href$="/buddyfred"]:after {
+    content: "(Smithbones)[360]"
+    }
+.author[href$="/BunsinHoneyDew"]:after {
+    content: "(Marit Lage)[PC]"
+    }
+.author[href$="/burichi"]:after {
+    content: "(burichi)[PC]"
+    }
+.author[href$="/burritofarmer"]:after {
+    content: "(burrito_farmer)[PC]"
+    }
+.author[href$="/burt_flaxton"]:after {
+    content: "(Flaxton)[PC]"
+    }
+.author[href$="/ButImUsingMyWholeAss"]:after {
+    content: "(Reepicheep)[PC]"
+    }
+.author[href$="/Buttscicles"]:after {
+    content: "(JoeAlcorn)[PC]"
+    }
+.author[href$="/Bzzza"]:after {
+    content: "(esoteradactyl)[PC]"
+    }
+.author[href$="/c0d3monk33"]:after {
+    content: "(SuperC0d3m0nkey)[360]"
+    }
+.author[href$="/Ca9ine"]:after {
+    content: "(Ca9ine)[PC]"
+    }
+.author[href$="/Caerau"]:after {
+    content: "(bingemonkey)[PS3]"
+    }
+.author[href$="/cageinthehouse"]:after {
+    content: "(Hellsadvocate)[PC]"
+    }
+.author[href$="/CAINOPHOBE"]:after {
+    content: "([FC]bigE)[PC]"
+    }
+.author[href$="/cairo140"]:after {
+    content: "(cairo140)[PC]"
+    }
+.author[href$="/caketown"]:after {
+    content: "(caketown)[PC]"
+    }
+.author[href$="/CalamariMarinara"]:after {
+    content: "(Marinara)[PC]"
+    }
+.author[href$="/caliform"]:after {
+    content: "(cocoia)[PC]"
+    }
+.author[href$="/Calvin521"]:after {
+    content: "(Calvin950 )[PC]"
+    }
+.author[href$="/Cambot1138"]:after {
+    content: "(Rambo Fett 42)[360]"
+    }
+.author[href$="/CanadianLumberjack"]:after {
+    content: "(Soaked)[PC]"
+    }
+.author[href$="/candafilm"]:after {
+    content: "(SilverFireshot)[PC]"
+    }
+.author[href$="/cantCme"]:after {
+    content: "(SoulAssassins)[PC]"
+    }
+.author[href$="/capnblueberry"]:after {
+    content: "(Capnblueberry)[PS3]"
+    }
+.author[href$="/captainbastard"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/captain_moop"]:after {
+    content: "(captain moop)[PC]"
+    }
+.author[href$="/careless"]:after {
+    content: "(AstleyRick)[PC]"
+    }
+.author[href$="/carsanova"]:after {
+    content: "(Grand Cru)[PC]"
+    }
+.author[href$="/catcher6250"]:after {
+    content: "(Lionmouth)[PC]"
+    }
+.author[href$="/categgs"]:after {
+    content: "(brocollichi)[PS3]"
+    }
+.author[href$="/cbazwonki"]:after {
+    content: "(Omnicromder)[PS3]"
+    }
+.author[href$="/cbeck527"]:after {
+    content: "(cbeck527)[PC]"
+    }
+.author[href$="/cbSparhawk"]:after {
+    content: "(Valrick)[PC]"
+    }
+.author[href$="/ccwinitialt"]:after {
+    content: "(InitialT)[PC]"
+    }
+.author[href$="/CCWINTIIALT"]:after {
+    content: "(-=CCW=- InitialT)[PC]"
+    }
+.author[href$="/cdrrck24"]:after {
+    content: "(cdrrck24)[360]"
+    }
+.author[href$="/champain"]:after {
+    content: "(photostop)[PC]"
+    }
+.author[href$="/chanop"]:after {
+    content: "(CHANOP)[PC]"
+    }
+.author[href$="/Char35"]:after {
+    content: "(xl TYR lx)[PC]"
+    }
+.author[href$="/charlieblix"]:after {
+    content: "(charlieblix)[PS3]"
+    }
+.author[href$="/chasamwin"]:after {
+    content: "(chas am win)[360]"
+    }
+.author[href$="/cheerful wish"]:after {
+    content: "(spideycw)[PC]"
+    }
+.author[href$="/Chekonjak"]:after {
+    content: "(Konjakavalier)[PC]"
+    }
+.author[href$="/ChessBoxingMaster"]:after {
+    content: "(KaneM)[PC]"
+    }
+.author[href$="/chezygo"]:after {
+    content: "(jalebi)[PC]"
+    }
+.author[href$="/Chiburger"]:after {
+    content: "(Chiburger)[PC]"
+    }
+.author[href$="/ChicagoBurdman"]:after {
+    content: "(ChicagoBurdman)[PC]"
+    }
+.author[href$="/chief_sitting_duck"]:after {
+    content: "(Capn Jazz)[PC]"
+    }
+.author[href$="/Chill420"]:after {
+    content: "(Damajah420)[360]"
+    }
+.author[href$="/chitownhawks"]:after {
+    content: "(Cdanks16)[360]"
+    }
+.author[href$="/ChokingVictim"]:after {
+    content: "(BrosLoveToCuddle)[PC]"
+    }
+.author[href$="/Chompson"]:after {
+    content: "(Chompson)[PC]"
+    }
+.author[href$="/ChrisInTheCorner"]:after {
+    content: "(Chris aKa Chip)[360]"
+    }
+.author[href$="/ChuckTupper"]:after {
+    content: "(ChuckTupper)[PC]"
+    }
+.author[href$="/ciphercore"]:after {
+    content: "(ciphercore)[PC]"
+    }
+.author[href$="/circuit_breaker"]:after {
+    content: "(circuitbreaker7)[360]"
+    }
+.author[href$="/classexception"]:after {
+    content: "([Cabbage])[PC]"
+    }
+.author[href$="/clearlyconfused"]:after {
+    content: "(I Clehman I)[360]"
+    }
+.author[href$="/clem78"]:after {
+    content: "(happeephace)[PC]"
+    }
+.author[href$="/cloudedsky"]:after {
+    content: "(usagi.mkii)[360]"
+    }
+.author[href$="/cloudpants"]:after {
+    content: "(supercloudpants)[360]"
+    }
+.author[href$="/Cloven"]:after {
+    content: "(Cloven)[PC]"
+    }
+.author[href$="/clyf"]:after {
+    content: "(Mjolkchoklad)[PC]"
+    }
+.author[href$="/cmdrhlm"]:after {
+    content: "(prffsrhlm)[PS3]"
+    }
+.author[href$="/cmrn"]:after {
+    content: "(a meme)[360]"
+    }
+.author[href$="/cmunerd"]:after {
+    content: "(wongarific)[360]"
+    }
+.author[href$="/CMXI"]:after {
+    content: "(WangChung1584)[360]"
+    }
+.author[href$="/cmyipnrwak"]:after {
+    content: "(cmyipnrwak)[]"
+    }
+.author[href$="/cnfergus"]:after {
+    content: "(Fergusson)[360]"
+    }
+.author[href$="/coburnicus"]:after {
+    content: "(coburnicus76)[PS3]"
+    }
+.author[href$="/CoderHawk"]:after {
+    content: "((-W3rD-)NuclearRampage)[PC]"
+    }
+.author[href$="/codingsewer"]:after {
+    content: "(danfission)[360]"
+    }
+.author[href$="/coditza"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/codyc61"]:after {
+    content: "(codyc61)[PS3]"
+    }
+.author[href$="/cohrt"]:after {
+    content: "(raging_lettuce)[PS3]"
+    }
+.author[href$="/colcob"]:after {
+    content: "(colcob)[PC]"
+    }
+.author[href$="/colkowalski"]:after {
+    content: "(Segfault)[PC]"
+    }
+.author[href$="/Condawg"]:after {
+    content: "(Condawg)[PC]"
+    }
+.author[href$="/Confuzion"]:after {
+    content: "(Konfuzion)[PC]"
+    }
+.author[href$="/Connery007"]:after {
+    content: "(Crimson Fox)[PC]"
+    }
+.author[href$="/connery_007"]:after {
+    content: "(Crimson Fox)[PC]"
+    }
+.author[href$="/conorm7"]:after {
+    content: "(conorm17)[PC]"
+    }
+.author[href$="/CoolCucumber"]:after {
+    content: "(Tomatoes)[PC]"
+    }
+.author[href$="/coonstev"]:after {
+    content: "(AuthurDent42)[PC]"
+    }
+.author[href$="/Corazon-Ray"]:after {
+    content: "(Corazon-Ray)[PC]"
+    }
+.author[href$="/corevette"]:after {
+    content: "(Iceland)[PC]"
+    }
+.author[href$="/corevetttet"]:after {
+    content: "(Iceland)[PC]"
+    }
+.author[href$="/Corporal_Hicks"]:after {
+    content: "(Barabbas Free)[360]"
+    }
+.author[href$="/counter-strike"]:after {
+    content: "(Super Ninja EX)[PC]"
+    }
+.author[href$="/cowrecked"]:after {
+    content: "(cowrecked)[PC]"
+    }
+.author[href$="/cpverne"]:after {
+    content: "(Colin77)[360]"
+    }
+.author[href$="/Crackrock"]:after {
+    content: "(SupLaudd)[360]"
+    }
+.author[href$="/CRAIGTHEPICT"]:after {
+    content: "(GEOFF LEPPARD)[PC]"
+    }
+.author[href$="/crazindndude"]:after {
+    content: "(hand[of]god)[PC]"
+    }
+.author[href$="/CrazyCanuck90"]:after {
+    content: "(CrazyCanuck90)[PC]"
+    }
+.author[href$="/creontigone"]:after {
+    content: "(Cara Feliz)[PC]"
+    }
+.author[href$="/Crepter"]:after {
+    content: "(Crepter)[360]"
+    }
+.author[href$="/crespokid"]:after {
+    content: "(Crespokid)[PS3]"
+    }
+.author[href$="/Crimodial"]:after {
+    content: "(Crimeodile)[PC]"
+    }
+.author[href$="/crlarkin"]:after {
+    content: "(Balls2TheWall)[PC]"
+    }
+.author[href$="/CrocoDylan"]:after {
+    content: "(Rageboxx)[360]"
+    }
+.author[href$="/CrowdPlzr"]:after {
+    content: "(CrowdPlzr)[PC]"
+    }
+.author[href$="/CrunchyChewie"]:after {
+    content: "(CrunchyChewie)[PC]"
+    }
+.author[href$="/CrustyM"]:after {
+    content: "(CrustyM31)[PC]"
+    }
+.author[href$="/csapdani"]:after {
+    content: "(csapdani)[PC]"
+    }
+.author[href$="/csusandrew"]:after {
+    content: "(bt.badger)[PC]"
+    }
+.author[href$="/cthulhu_bait"]:after {
+    content: "(doctordeath2012)[360]"
+    }
+.author[href$="/Culebras"]:after {
+    content: "(Culebras)[PC]"
+    }
+.author[href$="/cunne"]:after {
+    content: "(Kelly Clarkson)[PC]"
+    }
+.author[href$="/CYCLADES"]:after {
+    content: "(CYCLADES)[PC]"
+    }
+.author[href$="/cycophuk"]:after {
+    content: "(generic_clone)[PS3]"
+    }
+.author[href$="/cygnusness"]:after {
+    content: "(B to the ROX)[360]"
+    }
+.author[href$="/cyphirx"]:after {
+    content: "(cyphirx)[PS3]"
+    }
+.author[href$="/cypress35z"]:after {
+    content: "(cypress35z)[PC]"
+    }
+.author[href$="/Cyr1c"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/Cyric"]:after {
+    content: "(Cyr1c)[PC]"
+    }
+.author[href$="/cystop"]:after {
+    content: "(GT Cy)[360]"
+    }
+.author[href$="/cYtock"]:after {
+    content: "(Toan)[PC]"
+    }
+.author[href$="/C_1_s_c_0"]:after {
+    content: "(C_1_s_c_0)[PS3]"
+    }
+.author[href$="/d1ss3nt"]:after {
+    content: "(d1ss3nt)[PC]"
+    }
+.author[href$="/D3V89"]:after {
+    content: "(Almighty D3V89)[360]"
+    }
+.author[href$="/D4CH"]:after {
+    content: "(D4CH)[PC]"
+    }
+.author[href$="/d87"]:after {
+    content: "(d,FLEW)[PC]"
+    }
+.author[href$="/daaargh"]:after {
+    content: "(daaargh)[PC]"
+    }
+.author[href$="/daf001"]:after {
+    content: "(DAFOOL)[PC]"
+    }
+.author[href$="/DamnRandall"]:after {
+    content: "(Damn Randall)[PC]"
+    }
+.author[href$="/dangled"]:after {
+    content: "(dangled)[PC]"
+    }
+.author[href$="/dangorironhide"]:after {
+    content: "(Dangorironhide)[PC]"
+    }
+.author[href$="/DapperDave"]:after {
+    content: "(DapperDave)[PC]"
+    }
+.author[href$="/darad0"]:after {
+    content: "(DARAD0)[PC]"
+    }
+.author[href$="/DarkEagle205"]:after {
+    content: "(DarkEagle205)[PC]"
+    }
+.author[href$="/DarkNation"]:after {
+    content: "(Dark_Nation)[PS3]"
+    }
+.author[href$="/Darksaw"]:after {
+    content: "(Darksaw)[360]"
+    }
+.author[href$="/darth_ephword"]:after {
+    content: "(Rallyking)[PC]"
+    }
+.author[href$="/darth_jesus"]:after {
+    content: "(d4rth je5u5)[PC]"
+    }
+.author[href$="/darz0re"]:after {
+    content: "(jjbbii)[360]"
+    }
+.author[href$="/dave816am"]:after {
+    content: "(Spoon Addiction)[PC]"
+    }
+.author[href$="/davepople"]:after {
+    content: "(Balthazahr)[PC]"
+    }
+.author[href$="/davobrosia"]:after {
+    content: "(davodavo)[360]"
+    }
+.author[href$="/Daysofclark"]:after {
+    content: "(Lt.A James Clark)[PC]"
+    }
+.author[href$="/DayTimeLantern"]:after {
+    content: "(CallOfCouchy)[360]"
+    }
+.author[href$="/dcumbo"]:after {
+    content: "(DigitalCreators)[PS3]"
+    }
+.author[href$="/DDay629"]:after {
+    content: "(DDay629)[PC]"
+    }
+.author[href$="/ddevil63"]:after {
+    content: "(ddevil)[PC]"
+    }
+.author[href$="/DeadDemon"]:after {
+    content: "(DeadDemon)[PC]"
+    }
+.author[href$="/dead_"]:after {
+    content: "(dead_134)[PC]"
+    }
+.author[href$="/deathless88"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/debauchery"]:after {
+    content: "(debauchism)[PC]"
+    }
+.author[href$="/DecadentMadness"]:after {
+    content: "(DecadentMadness)[PC]"
+    }
+.author[href$="/DeeKan"]:after {
+    content: "(Mibe Hallsack)[360]"
+    }
+.author[href$="/defe007"]:after {
+    content: "(Fongdelang)[PC]"
+    }
+.author[href$="/defree"]:after {
+    content: "(Defree44)[360]"
+    }
+.author[href$="/Delacrz5"]:after {
+    content: "(Delacrz5)[360]"
+    }
+.author[href$="/deltaone"]:after {
+    content: "(xdeltaonex)[PS3]"
+    }
+.author[href$="/delvach"]:after {
+    content: "(delvach)[360]"
+    }
+.author[href$="/Demonicdebacle"]:after {
+    content: "(Golden_Crickef)[PS3]"
+    }
+.author[href$="/Demonithese"]:after {
+    content: "(Thyrus)[PC]"
+    }
+.author[href$="/derek1449"]:after {
+    content: "(wrigleyvillain)[PC]"
+    }
+.author[href$="/Dessington"]:after {
+    content: "(Dessington)[PC]"
+    }
+.author[href$="/deusemx"]:after {
+    content: "(Gamedeus)[PC]"
+    }
+.author[href$="/developeruk"]:after {
+    content: "(MrNastyUk)[PC]"
+    }
+.author[href$="/devilburiedfossils"]:after {
+    content: "(creationtheory)[PS3]"
+    }
+.author[href$="/DevilSkin"]:after {
+    content: "(DevilSkin)[PC]"
+    }
+.author[href$="/dgtucuoxv"]:after {
+    content: "(dgtucuoxv)[]"
+    }
+.author[href$="/dhodge1"]:after {
+    content: "([reddit]Karatay_Man)[PC]"
+    }
+.author[href$="/dida2010"]:after {
+    content: "(WES83)[PC]"
+    }
+.author[href$="/dieselcreek2"]:after {
+    content: "(HarleyRockingham)[PC]"
+    }
+.author[href$="/DieselPower8"]:after {
+    content: "(Raucous)[PC]"
+    }
+.author[href$="/DigiSmackd"]:after {
+    content: "(DigiSmack)[PC]"
+    }
+.author[href$="/dilan_728"]:after {
+    content: "(I Dilan I)[360]"
+    }
+.author[href$="/dinglebopper"]:after {
+    content: "(neuro423)[PC]"
+    }
+.author[href$="/DingoKidneys"]:after {
+    content: "(DingoKidneys)[PC]"
+    }
+.author[href$="/dirtystevie"]:after {
+    content: "(dirtystevie)[360]"
+    }
+.author[href$="/discdigger"]:after {
+    content: "(16 Tons)[PC]"
+    }
+.author[href$="/Disconnekted"]:after {
+    content: "(killboypowerhead)[PC]"
+    }
+.author[href$="/Djanvk"]:after {
+    content: "(iNebulize)[360]"
+    }
+.author[href$="/djork"]:after {
+    content: "(jcromartie)[PS3]"
+    }
+.author[href$="/DJ_Deathflea"]:after {
+    content: "(DJ Death Flea)[360]"
+    }
+.author[href$="/DKRainey"]:after {
+    content: "(DKRainey)[PC]"
+    }
+.author[href$="/dlc1911"]:after {
+    content: "(Neo1911)[PC]"
+    }
+.author[href$="/DMc720"]:after {
+    content: "(Helmsly)[PC]"
+    }
+.author[href$="/dmgz"]:after {
+    content: "(grossy666)[PS3]"
+    }
+.author[href$="/dmk2008"]:after {
+    content: "(dmk2008wtf)[360]"
+    }
+.author[href$="/dmurrow_"]:after {
+    content: "(murr0w)[360]"
+    }
+.author[href$="/DoctorBathroom"]:after {
+    content: "(DoctorBathroom)[PC]"
+    }
+.author[href$="/DoctorMisterSir"]:after {
+    content: "(DoctorMisterSir)[PC]"
+    }
+.author[href$="/doctorprestige"]:after {
+    content: "(MFbass)[360]"
+    }
+.author[href$="/domdell"]:after {
+    content: "(nanojate)[PC]"
+    }
+.author[href$="/DonReavis"]:after {
+    content: "(Don Reavis)[PC]"
+    }
+.author[href$="/donsailieri"]:after {
+    content: "(DonSailieri)[PC]"
+    }
+.author[href$="/dontbeajoseph"]:after {
+    content: "(dontbeajoseph)[PS3]"
+    }
+.author[href$="/doogleduck"]:after {
+    content: "()[360]"
+    }
+.author[href$="/Dopeness"]:after {
+    content: "(philmiles)[360]"
+    }
+.author[href$="/dorsia"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/dotwaffle"]:after {
+    content: "(dotwaffle)[360]"
+    }
+.author[href$="/double0penguin"]:after {
+    content: "(double0penguin)[360]"
+    }
+.author[href$="/Douglas_D"]:after {
+    content: "(McD Alexander)[PC]"
+    }
+.author[href$="/doyoulikecats"]:after {
+    content: "(ILoveKitties)[PC]"
+    }
+.author[href$="/dr9000"]:after {
+    content: "(dR.9000)[PC]"
+    }
+.author[href$="/draggin_low"]:after {
+    content: "(dRaGGin_loW)[PC]"
+    }
+.author[href$="/drakeg4"]:after {
+    content: "([reddhurr] DrakeG4)[PC]"
+    }
+.author[href$="/drdeep"]:after {
+    content: "(Roosevelvet)[PC]"
+    }
+.author[href$="/dreambucket"]:after {
+    content: "(dreambucket)[360]"
+    }
+.author[href$="/DrewASheldon"]:after {
+    content: "(Squid 26)[360]"
+    }
+.author[href$="/drmattz"]:after {
+    content: "(drmattz)[PS3]"
+    }
+.author[href$="/DrNeptune"]:after {
+    content: "(DrNeptune)[PS3]"
+    }
+.author[href$="/DrOrpheus"]:after {
+    content: "(Dr 0rpheu5)[360]"
+    }
+.author[href$="/DrRandom"]:after {
+    content: "(DrRandom)[PC]"
+    }
+.author[href$="/drtycho"]:after {
+    content: "(tycho 711)[360]"
+    }
+.author[href$="/drun3"]:after {
+    content: "(WiscoXC)[PC]"
+    }
+.author[href$="/dr_fishopolis"]:after {
+    content: "(shooty mcpants)[PC]"
+    }
+.author[href$="/DrFranknFurter"]:after {
+    content: "(Dr. Franknfurter)[PC]"
+    }
+.author[href$="/Duggers"]:after {
+    content: "(andonuts_388)[PC]"
+    }
+.author[href$="/dukeku"]:after {
+    content: "(dukeku)[PC]"
+    }
+.author[href$="/DumbledoreCalrissian"]:after {
+    content: "(Shojiro)[PC]"
+    }
+.author[href$="/duuurp"]:after {
+    content: "(duuurp)[PC]"
+    }
+.author[href$="/duvy"]:after {
+    content: "(jamesduvall)[PC]"
+    }
+.author[href$="/dVnt"]:after {
+    content: "(dVnt1)[PC]"
+    }
+.author[href$="/DVSBSTD"]:after {
+    content: "(DVSBSTD)[PC]"
+    }
+.author[href$="/DwightE"]:after {
+    content: "(DwightE)[PC]"
+    }
+.author[href$="/d_u_d_e.uy"]:after {
+    content: "(C4)[PC]"
+    }
+.author[href$="/E-138"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/e2pw"]:after {
+    content: "(Werzy)[360]"
+    }
+.author[href$="/ebiya"]:after {
+    content: "(kast)[PC]"
+    }
+.author[href$="/Eddd"]:after {
+    content: "(CommanderEd)[PC]"
+    }
+.author[href$="/Eddyman"]:after {
+    content: "(Eddyman)[PC]"
+    }
+.author[href$="/edgesmash"]:after {
+    content: "(edgesmash)[360]"
+    }
+.author[href$="/Edman274"]:after {
+    content: "(Edman274)[PC]"
+    }
+.author[href$="/eecan"]:after {
+    content: "(eecan)[PC]"
+    }
+.author[href$="/eeek"]:after {
+    content: "(Monsieur K.)[PC]"
+    }
+.author[href$="/Eggmont"]:after {
+    content: "(Eggmont)[PC]"
+    }
+.author[href$="/einsteinonabike"]:after {
+    content: "(Hayvvud Jabl0mi)[360]"
+    }
+.author[href$="/ekole"]:after {
+    content: "(FishBones)[PC]"
+    }
+.author[href$="/Ekori"]:after {
+    content: "(HebrewHurricane)[PC]"
+    }
+.author[href$="/elaxlyvp"]:after {
+    content: "(elaxlyvp)[]"
+    }
+.author[href$="/electrosynthesis"]:after {
+    content: "(Electrosynthesis)[PC]"
+    }
+.author[href$="/elgoogeht"]:after {
+    content: "(elgoog)[PC]"
+    }
+.author[href$="/elgoog_eht"]:after {
+    content: "(elgoog)[PC]"
+    }
+.author[href$="/elight86"]:after {
+    content: "(elight86)[360]"
+    }
+.author[href$="/elxx"]:after {
+    content: "(Elxx)[PC]"
+    }
+.author[href$="/el_editori"]:after {
+    content: "(ADHD_EL_EDITORI)[PS3]"
+    }
+.author[href$="/Eminence120"]:after {
+    content: "(Monkeybyte)[PC]"
+    }
+.author[href$="/emonk"]:after {
+    content: "(d_u_d_e.uy)[PC]"
+    }
+.author[href$="/enderwalcott"]:after {
+    content: "(HyperionHuxley)[PC]"
+    }
+.author[href$="/enel"]:after {
+    content: "(nlak)[PS3]"
+    }
+.author[href$="/Enforte"]:after {
+    content: "(Thunderhead93)[360]"
+    }
+.author[href$="/enigmamr"]:after {
+    content: "(eniglet)[PC]"
+    }
+.author[href$="/Ephewall"]:after {
+    content: "(Rick_Danger_RN)[PS3]"
+    }
+.author[href$="/erickghint"]:after {
+    content: "(Jug0rNot)[PC]"
+    }
+.author[href$="/ericlikesyou"]:after {
+    content: "(Captain_mooP)[PC]"
+    }
+.author[href$="/erlingur"]:after {
+    content: "(erlingur)[PC]"
+    }
+.author[href$="/erode"]:after {
+    content: "(GEN3RIC)[PC]"
+    }
+.author[href$="/Esham"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/Eska"]:after {
+    content: "(Diplomat.)[PC]"
+    }
+.author[href$="/Eskimo2002"]:after {
+    content: "(RHCP2002)[PC]"
+    }
+.author[href$="/eternalist"]:after {
+    content: "(Sundried Brains)[360]"
+    }
+.author[href$="/etherreal"]:after {
+    content: "(etherkill)[PC]"
+    }
+.author[href$="/etityn"]:after {
+    content: "(etityn)[]"
+    }
+.author[href$="/etnoggin"]:after {
+    content: "(rootbeer_pirate)[PC]"
+    }
+.author[href$="/everythingchanges"]:after {
+    content: "(Sgt. Pepper.)[PC]"
+    }
+.author[href$="/EvilChainsaw"]:after {
+    content: "(EvilChainsaw27)[360]"
+    }
+.author[href$="/evilmaverick"]:after {
+    content: "(evilmaverick)[PC]"
+    }
+.author[href$="/ExAm"]:after {
+    content: "(BestProduceEver)[PC]"
+    }
+.author[href$="/Exist2Resist"]:after {
+    content: "(Pt Pile)[PC]"
+    }
+.author[href$="/extremeans"]:after {
+    content: "(Masticust)[PC]"
+    }
+.author[href$="/eyekantspel"]:after {
+    content: "(FerretyOne)[PC]"
+    }
+.author[href$="/f4hy"]:after {
+    content: "(f4hy)[PC]"
+    }
+.author[href$="/Factual_Pterodactyl"]:after {
+    content: "(Pterodactyl)[PC]"
+    }
+.author[href$="/faemir"]:after {
+    content: "(faemir)[PC]"
+    }
+.author[href$="/failquail"]:after {
+    content: "(Clownshoes)[PC]"
+    }
+.author[href$="/FalcoPeregrinus"]:after {
+    content: "(PandionHaeliatus)[PC]"
+    }
+.author[href$="/Fantasysage"]:after {
+    content: "(Fantasysage)[PC]"
+    }
+.author[href$="/Fapper"]:after {
+    content: "(Fapper)[PC]"
+    }
+.author[href$="/farchewky"]:after {
+    content: "(farchew)[PS3]"
+    }
+.author[href$="/faster3200"]:after {
+    content: "(fast)[PC]"
+    }
+.author[href$="/fatmike85"]:after {
+    content: "(fatmike-nir)[PS3]"
+    }
+.author[href$="/fearandloath8"]:after {
+    content: "(fearandloath8)[PS3]"
+    }
+.author[href$="/Fenris78"]:after {
+    content: "(Fenris78)[PC]"
+    }
+.author[href$="/ffjonny"]:after {
+    content: "(FFlilJon)[360]"
+    }
+.author[href$="/fightswithbears"]:after {
+    content: "(yeahdude789)[360]"
+    }
+.author[href$="/filthyblasphemer"]:after {
+    content: "(FilthyBlasphemer)[PS3]"
+    }
+.author[href$="/Finnbarr"]:after {
+    content: "(Finnbarr)[PC]"
+    }
+.author[href$="/Firebert0z"]:after {
+    content: "(Firebert0z)[PC]"
+    }
+.author[href$="/fireflash38"]:after {
+    content: "(LuvlyOvipositor)[PC]"
+    }
+.author[href$="/Fitzroy86"]:after {
+    content: "(ragebeau)[PC]"
+    }
+.author[href$="/fkowqghgn"]:after {
+    content: "(fkowqghgn)[360]"
+    }
+.author[href$="/flagitiousSemen"]:after {
+    content: "(IllusoryAltruist)[PC]"
+    }
+.author[href$="/Flaiware"]:after {
+    content: "(PopiT)[PC]"
+    }
+.author[href$="/flakman"]:after {
+    content: "(KillingJoke3030)[360]"
+    }
+.author[href$="/Flashbaxx"]:after {
+    content: "()[360]"
+    }
+.author[href$="/flashing_lights"]:after {
+    content: "(mdubbs)[PC]"
+    }
+.author[href$="/flasked"]:after {
+    content: "(skillcap)[360]"
+    }
+.author[href$="/flavourablebeef"]:after {
+    content: "(lewrockwell)[PC]"
+    }
+.author[href$="/flipdagger"]:after {
+    content: "(BadGrandma)[PC]"
+    }
+.author[href$="/FLX"]:after {
+    content: "(flxfxp)[PC]"
+    }
+.author[href$="/Fnerb"]:after {
+    content: "(IamDeathSpank)[PC]"
+    }
+.author[href$="/fnpigeons"]:after {
+    content: "(fnpigeons)[360]"
+    }
+.author[href$="/FoffT"]:after {
+    content: "(FoffT)[PC]"
+    }
+.author[href$="/fondofMILFs"]:after {
+    content: "(brokenstaplers)[360]"
+    }
+.author[href$="/foolmanchoo"]:after {
+    content: "(foolmanchoo)[360]"
+    }
+.author[href$="/forcedtoregister"]:after {
+    content: "(l3mma)[PC]"
+    }
+.author[href$="/For_Iconoclasm"]:after {
+    content: "(// For Iconoclasm)[PC]"
+    }
+.author[href$="/fotorush"]:after {
+    content: "(Grino_)[PS3]"
+    }
+.author[href$="/foxanon"]:after {
+    content: "(tanks78)[PC]"
+    }
+.author[href$="/Foxpound"]:after {
+    content: "(Foxpound)[PC]"
+    }
+.author[href$="/foxual"]:after {
+    content: "(Foxuality)[360]"
+    }
+.author[href$="/frank26080115"]:after {
+    content: "(|Fuzzhao|)[PC]"
+    }
+.author[href$="/FrankReynolds"]:after {
+    content: "(MGibson)[PC]"
+    }
+.author[href$="/FrankVice"]:after {
+    content: "(FacadethePirate)[PC]"
+    }
+.author[href$="/Freakboy380"]:after {
+    content: "(Freakboy)[PC]"
+    }
+.author[href$="/freehunter"]:after {
+    content: "(xXfreehunterXx)[360]"
+    }
+.author[href$="/fremin"]:after {
+    content: "(fremin)[PC]"
+    }
+.author[href$="/Frescote"]:after {
+    content: "(Frescote)[PC]"
+    }
+.author[href$="/frikk"]:after {
+    content: "(frikker)[PS3]"
+    }
+.author[href$="/Frontcannon"]:after {
+    content: "(Frontcannon)[PC]"
+    }
+.author[href$="/Frothyleet"]:after {
+    content: "(Maurs)[PC]"
+    }
+.author[href$="/frozentoad"]:after {
+    content: "(|DoD| Half/Track)[PC]"
+    }
+.author[href$="/FTR01"]:after {
+    content: "(FTR01)[PC]"
+    }
+.author[href$="/fuckyouripod"]:after {
+    content: "(Innocente)[PC]"
+    }
+.author[href$="/funkstrong"]:after {
+    content: "(funkstrong)[PC]"
+    }
+.author[href$="/fxu1989"]:after {
+    content: "(fxu__)[PC]"
+    }
+.author[href$="/Fyzzip"]:after {
+    content: "(Porkinschicken)[PC]"
+    }
+.author[href$="/g00dn1ghtm4r3"]:after {
+    content: "(That New Guy)[PC]"
+    }
+.author[href$="/gabbyjay"]:after {
+    content: "(D.E.N.N.I.S.)[PC]"
+    }
+.author[href$="/Gadianton"]:after {
+    content: "(Gadianton)[PC]"
+    }
+.author[href$="/gamadaya"]:after {
+    content: "(gamadaya)[PC]"
+    }
+.author[href$="/Gamer0808"]:after {
+    content: "(Steam: Gamer0808)[PC]"
+    }
+.author[href$="/Gareth321"]:after {
+    content: "(Gareth321)[PC]"
+    }
+.author[href$="/garhol"]:after {
+    content: "(Garhole)[PC]"
+    }
+.author[href$="/Garin2010"]:after {
+    content: "(Garin2010)[PC]"
+    }
+.author[href$="/gaso"]:after {
+    content: "((STBCK)=GaS)[PC]"
+    }
+.author[href$="/GatorPhan84"]:after {
+    content: "(GatorPhan84)[PC]"
+    }
+.author[href$="/gatz"]:after {
+    content: "(gatz_6)[PC]"
+    }
+.author[href$="/GAYBLACKMEXIJEW"]:after {
+    content: "(Lt.Milks)[PC]"
+    }
+.author[href$="/gburn90"]:after {
+    content: "(GI-Burn)[PS3]"
+    }
+.author[href$="/GDmofo"]:after {
+    content: "(Dr GonzoGD mofo)[360]"
+    }
+.author[href$="/GD_Electric"]:after {
+    content: "(Lounatic)[PC]"
+    }
+.author[href$="/Gearsi"]:after {
+    content: "(Ionain)[PC]"
+    }
+.author[href$="/geebs61"]:after {
+    content: "(Cappmaster)[PC]"
+    }
+.author[href$="/Gelu6713"]:after {
+    content: "(Ryphez)[PC]"
+    }
+.author[href$="/General_Lee"]:after {
+    content: "(Paradox~)[PC]"
+    }
+.author[href$="/Genorb"]:after {
+    content: "( )[PC]"
+    }
+.author[href$="/GentlemanGhost1"]:after {
+    content: "(GentlemanGhost1)[360]"
+    }
+.author[href$="/getondachoppa"]:after {
+    content: "(marshallgb3)[PS3]"
+    }
+.author[href$="/gkl"]:after {
+    content: "(herrgkl)[PC]"
+    }
+.author[href$="/glenits"]:after {
+    content: "(valiant_fury)[PC]"
+    }
+.author[href$="/gmdlnsnb"]:after {
+    content: "(gmdlnsnb)[360]"
+    }
+.author[href$="/goalieman392"]:after {
+    content: "(Curtis5000)[PC]"
+    }
+.author[href$="/Gontoran"]:after {
+    content: "(Darkhus)[PC]"
+    }
+.author[href$="/goodbyeLennon"]:after {
+    content: "(goodbyeLennon)[PC]"
+    }
+.author[href$="/goofydelinquent"]:after {
+    content: "(goofydelinquent)[PC]"
+    }
+.author[href$="/googlegoggles"]:after {
+    content: "(an archy monkey)[PC]"
+    }
+.author[href$="/goot776"]:after {
+    content: "(goots)[PC]"
+    }
+.author[href$="/goots"]:after {
+    content: "(goots)[PC]"
+    }
+.author[href$="/goutmaximum"]:after {
+    content: "(goutmaximum)[PC]"
+    }
+.author[href$="/Gr0miT"]:after {
+    content: "(Gr0miT)[PC]"
+    }
+.author[href$="/gr3yasp"]:after {
+    content: "(gr3yasp)[PC]"
+    }
+.author[href$="/Gregman"]:after {
+    content: "(GregWhistler)[360]"
+    }
+.author[href$="/GregorCZ"]:after {
+    content: "(GCzar)[PC]"
+    }
+.author[href$="/gregorias"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/greyghst168"]:after {
+    content: "(greyghst168)[PC]"
+    }
+.author[href$="/greyishpoweranger"]:after {
+    content: "(roadwarrior666)[PC]"
+    }
+.author[href$="/gromdul"]:after {
+    content: "(gromdul)[360]"
+    }
+.author[href$="/Grumby24"]:after {
+    content: "(Grumby24)[PC]"
+    }
+.author[href$="/GuardsmanStumpy"]:after {
+    content: "(GuardsmanStumpy)[PC]"
+    }
+.author[href$="/GunslingerPJC"]:after {
+    content: "(Gunslinger.mp3)[PC]"
+    }
+.author[href$="/GuyBrushTWood"]:after {
+    content: "()[360]"
+    }
+.author[href$="/guyflannigan"]:after {
+    content: "(Ndak)[PC]"
+    }
+.author[href$="/gwfds123"]:after {
+    content: "(warzilak)[PC]"
+    }
+.author[href$="/h00py"]:after {
+    content: "(h00p)[PC]"
+    }
+.author[href$="/Habit"]:after {
+    content: "(kuolema8619)[PC]"
+    }
+.author[href$="/haekb"]:after {
+    content: "(haekb)[PC]"
+    }
+.author[href$="/hairyforehead"]:after {
+    content: "(Hairyforehead)[PC]"
+    }
+.author[href$="/halo73"]:after {
+    content: "(redd_dragons)[PS3]"
+    }
+.author[href$="/Hamakua"]:after {
+    content: "(Hamakua)[PC]"
+    }
+.author[href$="/Hammer2000"]:after {
+    content: "(Hammer2000)[PC]"
+    }
+.author[href$="/hanzzz123"]:after {
+    content: "(hanzzz)[PC]"
+    }
+.author[href$="/happinessbomb"]:after {
+    content: "(cirk89)[PS3]"
+    }
+.author[href$="/happysurfer"]:after {
+    content: "(wanderer1)[PC]"
+    }
+.author[href$="/HardwareLust"]:after {
+    content: "(HardwareLust)[360]"
+    }
+.author[href$="/harley_b"]:after {
+    content: "(harleybee)[PC]"
+    }
+.author[href$="/harmgsn"]:after {
+    content: "(HarmGsN)[PC]"
+    }
+.author[href$="/hartmoney"]:after {
+    content: "(Hartmoney)[PC]"
+    }
+.author[href$="/Havitech"]:after {
+    content: "(Agathorn)[PC]"
+    }
+.author[href$="/hawk4031"]:after {
+    content: "(hawk4031)[PC]"
+    }
+.author[href$="/haxzen"]:after {
+    content: "(Naaat)[PC]"
+    }
+.author[href$="/Hayes42"]:after {
+    content: "(Hayes42)[360]"
+    }
+.author[href$="/heartlessgamer"]:after {
+    content: "(heartlessgamer)[PC]"
+    }
+.author[href$="/HeaterFromVanMeter"]:after {
+    content: "(CKelso)[PC]"
+    }
+.author[href$="/HeavensTouch"]:after {
+    content: "(HeavensTouch)[PC]"
+    }
+.author[href$="/HeavyTwenty"]:after {
+    content: "(HeavyTwenty)[PC]"
+    }
+.author[href$="/helius"]:after {
+    content: "(Helios_wing)[PC]"
+    }
+.author[href$="/HelloJapan"]:after {
+    content: "(HelloJapan)[PC]"
+    }
+.author[href$="/helrich"]:after {
+    content: "(c_stauffer)[PC]"
+    }
+.author[href$="/Hemmer"]:after {
+    content: "(Hemmar)[PC]"
+    }
+.author[href$="/Hemmerly"]:after {
+    content: "(Hemmerly)[PC]"
+    }
+.author[href$="/hempy"]:after {
+    content: "(SmokeCatnip)[PS3]"
+    }
+.author[href$="/Hercules_Rockefeller"]:after {
+    content: "(NBCmark)[360]"
+    }
+.author[href$="/hewhosmites"]:after {
+    content: "(Hewhosmites)[PC]"
+    }
+.author[href$="/HeyItsTman"]:after {
+    content: "(HeyItsTman)[PS3]"
+    }
+.author[href$="/heymikedude"]:after {
+    content: "(MikeSuma)[PS3]"
+    }
+.author[href$="/Hideous"]:after {
+    content: "(Hideous)[PC]"
+    }
+.author[href$="/higmanschmidt"]:after {
+    content: "(higmanschmidt)[PC]"
+    }
+.author[href$="/Himura251"]:after {
+    content: "(Crisco)[PC]"
+    }
+.author[href$="/Hitpoint"]:after {
+    content: "(Hitpoint)[360]"
+    }
+.author[href$="/Hixie"]:after {
+    content: "(HixieThePixie)[PC]"
+    }
+.author[href$="/hjfklmor"]:after {
+    content: "(hjfklmor)[PC]"
+    }
+.author[href$="/hmexgvhku"]:after {
+    content: "(hmexgvhku)[360]"
+    }
+.author[href$="/hoard"]:after {
+    content: "(hoardlie)[360]"
+    }
+.author[href$="/hoffa_lives"]:after {
+    content: "(hoffa lives)[360]"
+    }
+.author[href$="/hortont424"]:after {
+    content: "(hortont424)[PC]"
+    }
+.author[href$="/house_absolute"]:after {
+    content: "(House Absolute)[PC]"
+    }
+.author[href$="/hpscbyykl"]:after {
+    content: "(hpscbyykl)[]"
+    }
+.author[href$="/hpxiqkt"]:after {
+    content: "(hpxiqkt)[]"
+    }
+.author[href$="/htntifuxaw"]:after {
+    content: "(htntifuxaw)[]"
+    }
+.author[href$="/hudsonshell"]:after {
+    content: "(MurderapolisMN)[PS3]"
+    }
+.author[href$="/humandiscoball"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/Hurri"]:after {
+    content: "(SmoothR)[PC]"
+    }
+.author[href$="/hurricaneditka"]:after {
+    content: "(natti light86)[360]"
+    }
+.author[href$="/Hydrochloric"]:after {
+    content: "(QxXx Bubba xXxQ)[360]"
+    }
+.author[href$="/hypermode"]:after {
+    content: "(Priority_Version)[PS3]"
+    }
+.author[href$="/Hyperspacehero"]:after {
+    content: "(Kemikal Burn)[360]"
+    }
+.author[href$="/hyphenminushyphen"]:after {
+    content: "(The Landlord)[PC]"
+    }
+.author[href$="/hypn0fr0g"]:after {
+    content: "(hypn0fr0g)[PC]"
+    }
+.author[href$="/HYPOBASIS"]:after {
+    content: "(Facistinabag)[360]"
+    }
+.author[href$="/iaian"]:after {
+    content: "(agreenburn)[PS3]"
+    }
+.author[href$="/iambrandon"]:after {
+    content: "(iambrandon)[PC]"
+    }
+.author[href$="/ibcfreak"]:after {
+    content: "(ibcfreak)[PC]"
+    }
+.author[href$="/Ichabond"]:after {
+    content: "(Ichabond)[PC]"
+    }
+.author[href$="/icono"]:after {
+    content: "(lowlyIntern)[PC]"
+    }
+.author[href$="/icurschwartz"]:after {
+    content: "(imcheesing)[PS3]"
+    }
+.author[href$="/IcyStorm"]:after {
+    content: "(IcyStorm)[PC]"
+    }
+.author[href$="/Idealistic"]:after {
+    content: "(Fysker)[PC]"
+    }
+.author[href$="/idkalf"]:after {
+    content: "(idkalf)[PC]"
+    }
+.author[href$="/ieatpoptarts"]:after {
+    content: "(ieatpoptarts88)[360]"
+    }
+.author[href$="/ifoughtsharks"]:after {
+    content: "(Fliko)[PC]"
+    }
+.author[href$="/iixx"]:after {
+    content: "(j03z)[PC]"
+    }
+.author[href$="/Iku_Tri"]:after {
+    content: "(Iku_Tri)[PC]"
+    }
+.author[href$="/illquid"]:after {
+    content: "(illquid)[PS3]"
+    }
+.author[href$="/ilop12"]:after {
+    content: "(Ingramtheboss)[PC]"
+    }
+.author[href$="/ILoveYouMaryJane"]:after {
+    content: "(MrGreeen)[360]"
+    }
+.author[href$="/ilykdp"]:after {
+    content: "(Bad R0b0t)[PC]"
+    }
+.author[href$="/immortalagain"]:after {
+    content: "(n30c)[PC]"
+    }
+.author[href$="/immortaljellyfish"]:after {
+    content: "(allota fagina)[PC]"
+    }
+.author[href$="/immure"]:after {
+    content: "(immure)[PC]"
+    }
+.author[href$="/im_also_a_member"]:after {
+    content: "(ozz999)[PC]"
+    }
+.author[href$="/Incursus"]:after {
+    content: "(YeaImRota)[PC]"
+    }
+.author[href$="/InfernoZeus"]:after {
+    content: "(InfernoZeus)[PC]"
+    }
+.author[href$="/inflamed_taint"]:after {
+    content: "(C_1_S_C_0)[PS3]"
+    }
+.author[href$="/insanesage"]:after {
+    content: "(Latronis)[PC]"
+    }
+.author[href$="/InternetHateMachin3"]:after {
+    content: "([48]T-Bone)[PC]"
+    }
+.author[href$="/internetiquettecop"]:after {
+    content: "(bmills)[PC]"
+    }
+.author[href$="/intheory"]:after {
+    content: "(inTheory)[PC]"
+    }
+.author[href$="/Intonable_vab"]:after {
+    content: "(intonable vab)[PC]"
+    }
+.author[href$="/Introvert"]:after {
+    content: "(A Bowel Movement)[PC]"
+    }
+.author[href$="/In_Odd_We_Trust"]:after {
+    content: "(Michel_Foucault)[PS3]"
+    }
+.author[href$="/IratePanda"]:after {
+    content: "(Trism)[PC]"
+    }
+.author[href$="/irnn"]:after {
+    content: "(irnn)[PC]"
+    }
+.author[href$="/IronKing"]:after {
+    content: "(IronKing)[PC]"
+    }
+.author[href$="/isakbarnet"]:after {
+    content: "(Panda.)[PC]"
+    }
+.author[href$="/itsmalarky"]:after {
+    content: "(Malarky86)[PC]"
+    }
+.author[href$="/itsmeee"]:after {
+    content: "(itsmeee)[PC]"
+    }
+.author[href$="/i_is_caboose"]:after {
+    content: "(tweek1030)[360]"
+    }
+.author[href$="/i_peel_cats"]:after {
+    content: "(wytninja)[PS3]"
+    }
+.author[href$="/j-29"]:after {
+    content: "(Adamska.)[PC]"
+    }
+.author[href$="/j3one"]:after {
+    content: "(benybenyboo)[PC]"
+    }
+.author[href$="/JA-REDDIT"]:after {
+    content: "(Smitzer)[360]"
+    }
+.author[href$="/ja50n"]:after {
+    content: "(JA050N)[PC]"
+    }
+.author[href$="/Jabba897"]:after {
+    content: "(JackSD)[PC]"
+    }
+.author[href$="/jackdriper"]:after {
+    content: "(Jack Rose)[PC]"
+    }
+.author[href$="/JackieMittoo"]:after {
+    content: "(Burro)[PC]"
+    }
+.author[href$="/Jackrose"]:after {
+    content: "(Jack Rose)[PC]"
+    }
+.author[href$="/jacksabusedliver"]:after {
+    content: "(Killing Void)[360]"
+    }
+.author[href$="/Jaecen"]:after {
+    content: "(Jaecen)[PC]"
+    }
+.author[href$="/Jaegerx"]:after {
+    content: "(Jaegerx)[360]"
+    }
+.author[href$="/jag8728"]:after {
+    content: "(ProudSamurai)[360]"
+    }
+.author[href$="/jagardaniel"]:after {
+    content: "(jagardaniel)[PC]"
+    }
+.author[href$="/jaguarphd"]:after {
+    content: "(Mike Al Krap)[PC]"
+    }
+.author[href$="/Jaibas"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/jakejustaverage"]:after {
+    content: "(lucky650)[PC]"
+    }
+.author[href$="/Jalh"]:after {
+    content: "(Jalh)[PC]"
+    }
+.author[href$="/Jam0864"]:after {
+    content: "(Jam0864)[PC]"
+    }
+.author[href$="/jambonilton"]:after {
+    content: "(TheHamMan)[PS3]"
+    }
+.author[href$="/james2258"]:after {
+    content: "(rockettrooper)[360]"
+    }
+.author[href$="/jamesduvall"]:after {
+    content: "(duvy)[PC]"
+    }
+.author[href$="/JamesRilstone"]:after {
+    content: "(Rilst0ne)[360]"
+    }
+.author[href$="/jamsy"]:after {
+    content: "(jajobri)[PS3]"
+    }
+.author[href$="/Janik93"]:after {
+    content: "(NeXt GeN I VegA)[360]"
+    }
+.author[href$="/JAPH"]:after {
+    content: "(HappyPerson)[PC]"
+    }
+.author[href$="/Jas0n_0n_a_Bike"]:after {
+    content: "(Jas0n 0n a Bike)[PC]"
+    }
+.author[href$="/jasonahoule"]:after {
+    content: "(Commando Flint)[360]"
+    }
+.author[href$="/Jauho"]:after {
+    content: "(Interactionist)[PC]"
+    }
+.author[href$="/javo93"]:after {
+    content: "(javocoll93)[PS3]"
+    }
+.author[href$="/Jay_"]:after {
+    content: "(Jd8coke)[360]"
+    }
+.author[href$="/Jdi4tc"]:after {
+    content: "(Jdi4tc)[360]"
+    }
+.author[href$="/Jeddy"]:after {
+    content: "(Jeddy)[PC]"
+    }
+.author[href$="/jeffwong"]:after {
+    content: "(pr0life)[PC]"
+    }
+.author[href$="/jeradj"]:after {
+    content: "(Dai_Shan)[PC]"
+    }
+.author[href$="/jetcombo15"]:after {
+    content: "(Thamko)[PC]"
+    }
+.author[href$="/JEveryman"]:after {
+    content: "(Jack Everyman)[360]"
+    }
+.author[href$="/jewishmoney420"]:after {
+    content: "(Akwild7)[360]"
+    }
+.author[href$="/jeyer"]:after {
+    content: "(Barabbas Free)[360]"
+    }
+.author[href$="/jgram"]:after {
+    content: "(FinalShowdown)[PC]"
+    }
+.author[href$="/JimJongChillin"]:after {
+    content: "(KimJongChillin)[PC]"
+    }
+.author[href$="/jimmythejet"]:after {
+    content: "(JIMMYTHEJET2000)[360]"
+    }
+.author[href$="/jimstr"]:after {
+    content: "(jimstr qc)[360]"
+    }
+.author[href$="/jimy"]:after {
+    content: "(afa)[360]"
+    }
+.author[href$="/JinxedSoul"]:after {
+    content: "(JinxedSoul)[PC]"
+    }
+.author[href$="/jjb123"]:after {
+    content: "(jjb123)[PC]"
+    }
+.author[href$="/jkjames"]:after {
+    content: "(ShaStabeast)[PC]"
+    }
+.author[href$="/joaofilipe"]:after {
+    content: "(CosmoKramer.)[PC]"
+    }
+.author[href$="/JoeBMX"]:after {
+    content: "(JoeBMX)[360]"
+    }
+.author[href$="/joebob613"]:after {
+    content: "(Komsoc)[PC]"
+    }
+.author[href$="/joelos"]:after {
+    content: "(violentjoelos)[360]"
+    }
+.author[href$="/joeshlub"]:after {
+    content: "(Im Doctor Rockzo)[PC]"
+    }
+.author[href$="/Jofijk"]:after {
+    content: "(Jofijk)[360]"
+    }
+.author[href$="/JohannQPublic"]:after {
+    content: "(Ned Ryerson)[PC]"
+    }
+.author[href$="/johka"]:after {
+    content: "(jokker1991)[PC]"
+    }
+.author[href$="/jon46"]:after {
+    content: "(yoimjon)[PS3]"
+    }
+.author[href$="/JonnyStabbins"]:after {
+    content: "(JonnyStabbins)[PC]"
+    }
+.author[href$="/joopndufus"]:after {
+    content: "(joopndufus)[360]"
+    }
+.author[href$="/jorgechavez40"]:after {
+    content: "(jorgechavez40)[PS3]"
+    }
+.author[href$="/joshak"]:after {
+    content: "(.Destructomatic.)[PC]"
+    }
+.author[href$="/jo_ey"]:after {
+    content: "(j0_ey)[PC]"
+    }
+.author[href$="/JPsmooth42"]:after {
+    content: "(JPsmooth42)[360]"
+    }
+.author[href$="/jrhaberman"]:after {
+    content: "(DarkSide6)[PC]"
+    }
+.author[href$="/jsn8891"]:after {
+    content: "(Towly420420)[360]"
+    }
+.author[href$="/JussaIrish"]:after {
+    content: "(Team Fun Member)[360]"
+    }
+.author[href$="/Justfragme"]:after {
+    content: "(JustFragMe)[PS3]"
+    }
+.author[href$="/justsittinghere"]:after {
+    content: "(reload~fire)[PC]"
+    }
+.author[href$="/k00pa"]:after {
+    content: "(k00pa)[PC]"
+    }
+.author[href$="/k1114"]:after {
+    content: "(Paul1114)[360]"
+    }
+.author[href$="/KageG213"]:after {
+    content: "(Kage G213)[360]"
+    }
+.author[href$="/kahi"]:after {
+    content: "(kahi)[360]"
+    }
+.author[href$="/Kahoona"]:after {
+    content: "(Kahoona)[PC]"
+    }
+.author[href$="/kalami"]:after {
+    content: "(kalami)[PC]"
+    }
+.author[href$="/kalle78"]:after {
+    content: "(01001)[PC]"
+    }
+.author[href$="/kamilf"]:after {
+    content: "(Zombies)[PC]"
+    }
+.author[href$="/karlowskii"]:after {
+    content: "(Karlowskii)[PS3]"
+    }
+.author[href$="/KaseyKasem"]:after {
+    content: "(THUG x WRECK)[360]"
+    }
+.author[href$="/katakoon"]:after {
+    content: "(sammilla)[PC]"
+    }
+.author[href$="/kettlecorn"]:after {
+    content: "(Colorjay)[360]"
+    }
+.author[href$="/kevdawg"]:after {
+    content: "(kevdawg2003)[PS3]"
+    }
+.author[href$="/kevinhoagland"]:after {
+    content: "(kthoag)[360]"
+    }
+.author[href$="/keyrat"]:after {
+    content: "(keyrat)[PS3]"
+    }
+.author[href$="/KFK"]:after {
+    content: "(OhClip)[PC]"
+    }
+.author[href$="/khellrie"]:after {
+    content: "(superMOSES)[PC]"
+    }
+.author[href$="/Khime"]:after {
+    content: "(khime)[PS3]"
+    }
+.author[href$="/Kikjik"]:after {
+    content: "(RBizzlez)[360]"
+    }
+.author[href$="/kimosabe52"]:after {
+    content: "(kimosabe)[PC]"
+    }
+.author[href$="/Kingoftown"]:after {
+    content: "(King0fTown)[360]"
+    }
+.author[href$="/kinkouin"]:after {
+    content: "(kinkouin)[PC]"
+    }
+.author[href$="/Kirby54925"]:after {
+    content: "(Kirby54925)[PC]"
+    }
+.author[href$="/Kirk.Falcon"]:after {
+    content: "(Kirk_Falcon)[PC]"
+    }
+.author[href$="/KishCom"]:after {
+    content: "(KishCom)[PC]"
+    }
+.author[href$="/Kliffoth"]:after {
+    content: "(Kliffoth)[PC]"
+    }
+.author[href$="/Klink-a-dink-dink"]:after {
+    content: "(Klinkadinkdink)[PC]"
+    }
+.author[href$="/Knabe"]:after {
+    content: "(Knabe91)[PC]"
+    }
+.author[href$="/kneeofwisdom"]:after {
+    content: "(OH NODE)[360]"
+    }
+.author[href$="/knullcon"]:after {
+    content: "(3kris)[PC]"
+    }
+.author[href$="/kommando208"]:after {
+    content: "(Bob_the_Troll)[PC]"
+    }
+.author[href$="/kompulsive"]:after {
+    content: "(kompulsive)[PC]"
+    }
+.author[href$="/KonbanwaTaiyaki"]:after {
+    content: "(tigerr.)[PC]"
+    }
+.author[href$="/kooliokevin"]:after {
+    content: "(koo1iokevin)[360]"
+    }
+.author[href$="/Kosgey"]:after {
+    content: "(Kosgey)[PC]"
+    }
+.author[href$="/KPrime"]:after {
+    content: "(KPrime)[PC]"
+    }
+.author[href$="/Kraddy"]:after {
+    content: "(Iddqdz)[PC]"
+    }
+.author[href$="/krage"]:after {
+    content: "(krage)[PC]"
+    }
+.author[href$="/krazykipa-"]:after {
+    content: "(krazykipa)[PC]"
+    }
+.author[href$="/krazytaco"]:after {
+    content: "(KrazyTaco)[PC]"
+    }
+.author[href$="/krh"]:after {
+    content: "(bazqux)[PC]"
+    }
+.author[href$="/kri kri"]:after {
+    content: "(kri kri)[PC]"
+    }
+.author[href$="/Kryhavok"]:after {
+    content: "(Kryhavok)[PC]"
+    }
+.author[href$="/ksumarine"]:after {
+    content: "(ksumarine)[PS3]"
+    }
+.author[href$="/kumffqhzx"]:after {
+    content: "(kumffqhzx)[360]"
+    }
+.author[href$="/kur1"]:after {
+    content: "(Kur1)[PC]"
+    }
+.author[href$="/kurlin"]:after {
+    content: "(kurlin_E)[PC]"
+    }
+.author[href$="/kutch430"]:after {
+    content: "(Asset)[PC]"
+    }
+.author[href$="/kwikshot"]:after {
+    content: "(kwikshot)[PC]"
+    }
+.author[href$="/kwyjibohunter"]:after {
+    content: "(Kwyjibo Hunter)[360]"
+    }
+.author[href$="/KyotoWolf"]:after {
+    content: "(KyotoWolf)[PC]"
+    }
+.author[href$="/l-jack"]:after {
+    content: "(Lmberjack)[PC]"
+    }
+.author[href$="/L1ghtsaber"]:after {
+    content: "(12 Parsecs)[PC]"
+    }
+.author[href$="/Lachtan"]:after {
+    content: "(xlachtanx)[PC]"
+    }
+.author[href$="/lamejoketeller"]:after {
+    content: "(Mr Spliff 81423)[360]"
+    }
+.author[href$="/landongriffin"]:after {
+    content: "(GriffinAB)[360]"
+    }
+.author[href$="/landroid"]:after {
+    content: "(landers0074)[360]"
+    }
+.author[href$="/Langbot"]:after {
+    content: "(Langbot)[PC]"
+    }
+.author[href$="/lantech"]:after {
+    content: "(Thagomizer)[PC]"
+    }
+.author[href$="/Lasereye"]:after {
+    content: "(Lasereye88)[PC]"
+    }
+.author[href$="/lazyd00d"]:after {
+    content: "(lazyd00d)[PC]"
+    }
+.author[href$="/lbrandy"]:after {
+    content: "(slappy326)[360]"
+    }
+.author[href$="/Leafybug"]:after {
+    content: "(I Am Not A Duck)[360]"
+    }
+.author[href$="/leechsucka"]:after {
+    content: "(leech sucka)[360]"
+    }
+.author[href$="/lellow"]:after {
+    content: "(lellow)[PC]"
+    }
+.author[href$="/leperkuhn"]:after {
+    content: "(leperkuhn)[360]"
+    }
+.author[href$="/lessthanadam"]:after {
+    content: "(lessthanadam)[PC]"
+    }
+.author[href$="/lexwhitfield"]:after {
+    content: "(LexW53)[360]"
+    }
+.author[href$="/Lexxicon"]:after {
+    content: "(Lexx Anuk)[PC]"
+    }
+.author[href$="/LG03"]:after {
+    content: "(Lone Grunt)[PC]"
+    }
+.author[href$="/lgfualol"]:after {
+    content: "(J03Woo)[360]"
+    }
+.author[href$="/lghitman"]:after {
+    content: "(travgnome66)[360]"
+    }
+.author[href$="/lhavelund"]:after {
+    content: "(lhavelund)[PC]"
+    }
+.author[href$="/liebemachtfrei"]:after {
+    content: "(liebemachtfrei)[PC]"
+    }
+.author[href$="/lilboomboom"]:after {
+    content: "(adwalk)[360]"
+    }
+.author[href$="/Linknight"]:after {
+    content: "(Linknight)[PC]"
+    }
+.author[href$="/liquidm"]:after {
+    content: "(liquidm)[PC]"
+    }
+.author[href$="/liquidsnake06"]:after {
+    content: "(lonesamurai666)[PS3]"
+    }
+.author[href$="/Lithargoel"]:after {
+    content: "(Felldrake)[PC]"
+    }
+.author[href$="/littleredrex"]:after {
+    content: "(eckosof)[PC]"
+    }
+.author[href$="/lkeg56demn"]:after {
+    content: "(lkeg56demn)[360]"
+    }
+.author[href$="/llamafier"]:after {
+    content: "(llamafier)[PC]"
+    }
+.author[href$="/loganekz"]:after {
+    content: "()[360]"
+    }
+.author[href$="/logicnot"]:after {
+    content: "(logicnot)[PC]"
+    }
+.author[href$="/Logicproof"]:after {
+    content: "(Logicproof)[PC]"
+    }
+.author[href$="/loktoris"]:after {
+    content: "(click2shoot)[PC]"
+    }
+.author[href$="/lolnoodles"]:after {
+    content: "(redmonky91)[360]"
+    }
+.author[href$="/lols"]:after {
+    content: "([Gen]itals)[PC]"
+    }
+.author[href$="/lolwutpear"]:after {
+    content: "(funkwich)[PC]"
+    }
+.author[href$="/lonerzombie"]:after {
+    content: "(lonerzombie)[360]"
+    }
+.author[href$="/longltimefan"]:after {
+    content: "(FC BURN)[PC]"
+    }
+.author[href$="/longshot"]:after {
+    content: "(FustyMcCrusty)[360]"
+    }
+.author[href$="/longtimefan"]:after {
+    content: "(FC BURN)[PC]"
+    }
+.author[href$="/loopdigga"]:after {
+    content: "(sgt.loopdigga)[PC]"
+    }
+.author[href$="/Loosecannoncommenter"]:after {
+    content: "(Retslip)[PC]"
+    }
+.author[href$="/Lordbrandon"]:after {
+    content: "(Lordbrandon)[PC]"
+    }
+.author[href$="/LordGaGa"]:after {
+    content: "(tme2nsb)[360]"
+    }
+.author[href$="/lordgold"]:after {
+    content: "(xxlordgold)[360]"
+    }
+.author[href$="/LostMicrowave"]:after {
+    content: "(DauntedEnd)[360]"
+    }
+.author[href$="/lotheac"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/Lothy"]:after {
+    content: "(Lothy)[360]"
+    }
+.author[href$="/Loushius"]:after {
+    content: "(Loushius)[PC]"
+    }
+.author[href$="/Loyen"]:after {
+    content: "(Loyen_)[PC]"
+    }
+.author[href$="/Lt_Puma"]:after {
+    content: "(Lt_Puma)[360]"
+    }
+.author[href$="/lucasd"]:after {
+    content: "(dukeku)[PC]"
+    }
+.author[href$="/lucidlurch"]:after {
+    content: "(lucidlurch)[PC]"
+    }
+.author[href$="/lugkhast"]:after {
+    content: "(lugkhast)[PC]"
+    }
+.author[href$="/lumio"]:after {
+    content: "(lumio)[PC]"
+    }
+.author[href$="/lurkermaximus"]:after {
+    content: "(Roadkillcafe)[PC]"
+    }
+.author[href$="/Lut3s"]:after {
+    content: "(W1re)[PC]"
+    }
+.author[href$="/m-p-3"]:after {
+    content: "(m-p{3})[PC]"
+    }
+.author[href$="/m1ss1ontomars2k4"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/M1ST4K3"]:after {
+    content: "(EPIK-M1ST4K3)[PC]"
+    }
+.author[href$="/m3thodm4n021"]:after {
+    content: "(m3thodm4n021)[PC]"
+    }
+.author[href$="/m4dsh4d0w"]:after {
+    content: "(m4dsh4d0w)[PC]"
+    }
+.author[href$="/m4rx"]:after {
+    content: "(Marx)[PC]"
+    }
+.author[href$="/MachJT"]:after {
+    content: "(MachJT)[360]"
+    }
+.author[href$="/machsmit"]:after {
+    content: "([MIT] Waterbeards)[PC]"
+    }
+.author[href$="/macktastick"]:after {
+    content: "(macktastick1)[360]"
+    }
+.author[href$="/madwormer2"]:after {
+    content: "(Madwormer2)[PC]"
+    }
+.author[href$="/Mad_Gouki"]:after {
+    content: "(Mad_Gouki)[PC]"
+    }
+.author[href$="/MajesticTowerOfHats"]:after {
+    content: "(Rincewind)[PC]"
+    }
+.author[href$="/MajorGiggles"]:after {
+    content: "(MajorGiggles)[PC]"
+    }
+.author[href$="/Makkaboosh"]:after {
+    content: "([Exo]Makka)[PC]"
+    }
+.author[href$="/Malabo"]:after {
+    content: "(Malabo)[PC]"
+    }
+.author[href$="/Managore"]:after {
+    content: "(Cosine)[PC]"
+    }
+.author[href$="/manapower12"]:after {
+    content: "(CalmLikeAROM)[PC]"
+    }
+.author[href$="/manbra"]:after {
+    content: "(manbra)[PC]"
+    }
+.author[href$="/manuelacon"]:after {
+    content: "(Johnbot)[PC]"
+    }
+.author[href$="/martyFREEDOM"]:after {
+    content: "(Marty Freed0m)[360]"
+    }
+.author[href$="/masfenix"]:after {
+    content: "(fenix_sn)[PS3]"
+    }
+.author[href$="/Maskawanian"]:after {
+    content: "(Maskawanian)[PC]"
+    }
+.author[href$="/mason092"]:after {
+    content: "(JimmytheJackal)[PC]"
+    }
+.author[href$="/masternova"]:after {
+    content: "(TheHoboKing)[PC]"
+    }
+.author[href$="/MasterWizard"]:after {
+    content: "(Thunderdactyl)[PS3]"
+    }
+.author[href$="/MatDef"]:after {
+    content: "(MatDef)[PC]"
+    }
+.author[href$="/mavandeh"]:after {
+    content: "(malark85)[360]"
+    }
+.author[href$="/MaximumAbsorbency"]:after {
+    content: "(Max Absorbency)[PC]"
+    }
+.author[href$="/MaximumBob"]:after {
+    content: "(RoboKong)[PC]"
+    }
+.author[href$="/maxthepaco"]:after {
+    content: "(Cpl.Max)[PC]"
+    }
+.author[href$="/maybear"]:after {
+    content: "(pvt. dancer.)[PC]"
+    }
+.author[href$="/Maynza"]:after {
+    content: "(Maynza)[PC]"
+    }
+.author[href$="/MCbangs"]:after {
+    content: "(Alcatron)[PC]"
+    }
+.author[href$="/McTurdwipe"]:after {
+    content: "(Trollemite)[PC]"
+    }
+.author[href$="/mdjohns"]:after {
+    content: "(CLOACA)[PC]"
+    }
+.author[href$="/mdrufus"]:after {
+    content: "(mdRufus)[PC]"
+    }
+.author[href$="/Mechangmenow"]:after {
+    content: "(Mechangmenow)[PS3]"
+    }
+.author[href$="/meenuh"]:after {
+    content: "(meenuh)[PC]"
+    }
+.author[href$="/megook"]:after {
+    content: "(mikkram)[PC]"
+    }
+.author[href$="/meinbereich"]:after {
+    content: "(Uncle Kitty)[PC]"
+    }
+.author[href$="/menomena"]:after {
+    content: "(voxtrot)[PC]"
+    }
+.author[href$="/Mercifool"]:after {
+    content: "(Cream Daddy J)[PC]"
+    }
+.author[href$="/messlah"]:after {
+    content: "(Token1)[PC]"
+    }
+.author[href$="/metalspork"]:after {
+    content: "(Metal Spork)[PC]"
+    }
+.author[href$="/mhansen10"]:after {
+    content: "(mansen)[PC]"
+    }
+.author[href$="/mhl12"]:after {
+    content: "(Remxed)[PC]"
+    }
+.author[href$="/midnight_hobo"]:after {
+    content: "(midnight hobo)[PS3]"
+    }
+.author[href$="/midri"]:after {
+    content: "(MiDri)[PC]"
+    }
+.author[href$="/mik3"]:after {
+    content: "(Comrade-zEE)[PC]"
+    }
+.author[href$="/MikeHunt716"]:after {
+    content: "(Sweatpony4)[PS3]"
+    }
+.author[href$="/millerwhite"]:after {
+    content: "(//Chronic)[PC]"
+    }
+.author[href$="/Mini-Marine"]:after {
+    content: "(Mini Marine)[PC]"
+    }
+.author[href$="/mirvnillith"]:after {
+    content: "(Mirvnillith)[PS3]"
+    }
+.author[href$="/misfeasor"]:after {
+    content: "(misfeasor)[PC]"
+    }
+.author[href$="/Misterberu"]:after {
+    content: "(Misterberu)[PC]"
+    }
+.author[href$="/mistergookey"]:after {
+    content: "(mistergookey)[PC]"
+    }
+.author[href$="/misterhat"]:after {
+    content: "(familyorfriends)[PS3]"
+    }
+.author[href$="/misterMAYBE"]:after {
+    content: "(Tvrtko)[PC]"
+    }
+.author[href$="/MisterNetHead"]:after {
+    content: "(FatalFlux)[PC]"
+    }
+.author[href$="/mitsuhiko"]:after {
+    content: "(mitsuhiko)[PC]"
+    }
+.author[href$="/mizled"]:after {
+    content: "(Lieut Starbuck)[360]"
+    }
+.author[href$="/mmmhmmhim"]:after {
+    content: "(khouncreative)[PC]"
+    }
+.author[href$="/Modest_Proposal"]:after {
+    content: "(Modest Proposal)[PC]"
+    }
+.author[href$="/moldyredditor"]:after {
+    content: "(m0ldy)[PC]"
+    }
+.author[href$="/mongo76"]:after {
+    content: "(cynic09)[PS3]"
+    }
+.author[href$="/MonkeyCrumpets"]:after {
+    content: "(DonkeyWaffles)[PC]"
+    }
+.author[href$="/monsturbater"]:after {
+    content: "(IunREALI Cagle)[360]"
+    }
+.author[href$="/montalvoe"]:after {
+    content: "(green_fister)[PC]"
+    }
+.author[href$="/Moofed"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/Mooney10"]:after {
+    content: "(SirDigby [reddit])[PC]"
+    }
+.author[href$="/moonshine211"]:after {
+    content: "(moonshine211)[PC]"
+    }
+.author[href$="/Moosebomber"]:after {
+    content: "(immortal guard)[360]"
+    }
+.author[href$="/morriscode"]:after {
+    content: "(morriscode)[PC]"
+    }
+.author[href$="/morrisom"]:after {
+    content: "(Ferior48)[PC]"
+    }
+.author[href$="/MorrisonHotel"]:after {
+    content: "(Gigaflop)[PC]"
+    }
+.author[href$="/Moshi"]:after {
+    content: "(Crustycumsock)[PC]"
+    }
+.author[href$="/move_damnit"]:after {
+    content: "(Anodyne)[PC]"
+    }
+.author[href$="/MPFarmer"]:after {
+    content: "(MPFarmer)[360]"
+    }
+.author[href$="/mrcytizen"]:after {
+    content: "(Cytizen)[360]"
+    }
+.author[href$="/MrGergg"]:after {
+    content: "(MrGergg)[360]"
+    }
+.author[href$="/mrhuffnstuff"]:after {
+    content: "(MrHuffnStuff)[360]"
+    }
+.author[href$="/mrmarcel"]:after {
+    content: "(mrmarcel)[PC]"
+    }
+.author[href$="/MrMonarchy"]:after {
+    content: "(MrMonarchy)[PC]"
+    }
+.author[href$="/MrNooby"]:after {
+    content: "(iGotWingsYay)[PS3]"
+    }
+.author[href$="/MrSlavi"]:after {
+    content: "(Dealing4Life)[PS3]"
+    }
+.author[href$="/MrTissues"]:after {
+    content: "(MrTissues)[PS3]"
+    }
+.author[href$="/mr_bliss"]:after {
+    content: "(Mr Bliss)[PC]"
+    }
+.author[href$="/mr_happy28"]:after {
+    content: "(mrhappy29)[PC]"
+    }
+.author[href$="/mr_rabbit_is_dead"]:after {
+    content: "(Krolikov)[PC]"
+    }
+.author[href$="/mr_tea"]:after {
+    content: "(Captain Toast)[PC]"
+    }
+.author[href$="/MsgGodzilla"]:after {
+    content: "(TheCrawlingChaos)[PC]"
+    }
+.author[href$="/mt3chn1k"]:after {
+    content: "(<1>MTechnik)[PC]"
+    }
+.author[href$="/mtnkodiak"]:after {
+    content: "([9FA]Mountain Kodiak)[PC]"
+    }
+.author[href$="/muffkintass"]:after {
+    content: "(mr muffkintass)[360]"
+    }
+.author[href$="/mukman"]:after {
+    content: "(mukman)[PC]"
+    }
+.author[href$="/mustard_"]:after {
+    content: "(mustard)[PC]"
+    }
+.author[href$="/mwu8689"]:after {
+    content: "(RAGiNAS1AN9000)[360]"
+    }
+.author[href$="/mxmstrmnky"]:after {
+    content: "(mixmastermonkey)[PC]"
+    }
+.author[href$="/MyBabeAbe"]:after {
+    content: "(MyBabeAbe)[PC]"
+    }
+.author[href$="/mynamewastaken"]:after {
+    content: "(sd.johnny23)[PC]"
+    }
+.author[href$="/m_g"]:after {
+    content: "(caudexlbp)[PC]"
+    }
+.author[href$="/n15san"]:after {
+    content: "(Precedence)[PC]"
+    }
+.author[href$="/n1k_"]:after {
+    content: "(n1k_)[PC]"
+    }
+.author[href$="/N8-K47"]:after {
+    content: "(N8-K47)[PS3]"
+    }
+.author[href$="/Naedlus"]:after {
+    content: "(Naedlus)[360]"
+    }
+.author[href$="/nallyo2"]:after {
+    content: "(nallyo)[360]"
+    }
+.author[href$="/Namakan"]:after {
+    content: "(Namakan)[PC]"
+    }
+.author[href$="/Namsta"]:after {
+    content: "(Namsta)[PC]"
+    }
+.author[href$="/Narpak"]:after {
+    content: "(Yarth)[PC]"
+    }
+.author[href$="/nateisner"]:after {
+    content: "(Digital N8)[360]"
+    }
+.author[href$="/nathan"]:after {
+    content: "(apathynow)[PS3]"
+    }
+.author[href$="/nathannecro"]:after {
+    content: "([WGO] nathannecro)[PC]"
+    }
+.author[href$="/naz2292"]:after {
+    content: "(Alizar)[PC]"
+    }
+.author[href$="/ndougla2"]:after {
+    content: "(Deadly Honeydew)[360]"
+    }
+.author[href$="/neonwhite"]:after {
+    content: "(elidaniel)[PS3]"
+    }
+.author[href$="/Nephilim1123"]:after {
+    content: "(nephilimxyz)[PC]"
+    }
+.author[href$="/NerdyOgre254"]:after {
+    content: "(NerdyOgre254)[PC]"
+    }
+.author[href$="/Nerrez"]:after {
+    content: "(Nerrez)[PC]"
+    }
+.author[href$="/nevasion"]:after {
+    content: "(neva)[PC]"
+    }
+.author[href$="/NeverCorrect"]:after {
+    content: "(DrPlacebo)[PC]"
+    }
+.author[href$="/Niceguy12834"]:after {
+    content: "(Niceguy128)[PS3]"
+    }
+.author[href$="/NickLorca"]:after {
+    content: "(NickLorca)[PC]"
+    }
+.author[href$="/nicolauz"]:after {
+    content: "(nicolauz)[360]"
+    }
+.author[href$="/NiGHTS"]:after {
+    content: "(iGame)[PC]"
+    }
+.author[href$="/nikulabs"]:after {
+    content: "(nikulabs)[PC]"
+    }
+.author[href$="/ninj0r"]:after {
+    content: "(ninj0r)[PC]"
+    }
+.author[href$="/ninjamckickass"]:after {
+    content: "(ninjamckickass)[360]"
+    }
+.author[href$="/NinjaSupplyCompany"]:after {
+    content: "(TokyoGORE)[360]"
+    }
+.author[href$="/Niode"]:after {
+    content: "(Niode)[360]"
+    }
+.author[href$="/nishaft"]:after {
+    content: "(Nishaft)[360]"
+    }
+.author[href$="/nitesmoke"]:after {
+    content: "(nitesmoke)[PC]"
+    }
+.author[href$="/Nitramlik"]:after {
+    content: "(Nitramlik)[360]"
+    }
+.author[href$="/njw1234"]:after {
+    content: "(Nozick)[PC]"
+    }
+.author[href$="/nmezib"]:after {
+    content: "(BruceyPoo)[PC]"
+    }
+.author[href$="/nmuncer"]:after {
+    content: "(Mohair_BBQ-Sauce)[PC]"
+    }
+.author[href$="/nny76"]:after {
+    content: "(Nny. (Need the period after ><))[PC]"
+    }
+.author[href$="/nobodylikesme"]:after {
+    content: "(spencerth)[360]"
+    }
+.author[href$="/nocarrierdetected"]:after {
+    content: "(wantonexplosion)[PC]"
+    }
+.author[href$="/nombomtom"]:after {
+    content: "(FATE UK)[360]"
+    }
+.author[href$="/nomnomno"]:after {
+    content: "(wharnal)[PC]"
+    }
+.author[href$="/nonetimeaccount"]:after {
+    content: "(SmokeWiidEvryDay)[PS3]"
+    }
+.author[href$="/Noobymcnoob"]:after {
+    content: "(Noobymcnoob)[PC]"
+    }
+.author[href$="/nosam333"]:after {
+    content: "(nosam333)[360]"
+    }
+.author[href$="/NOSHEDIDNTSAYTHAT"]:after {
+    content: "(StumperTX)[PC]"
+    }
+.author[href$="/notaloop"]:after {
+    content: "(Notaloop)[PC]"
+    }
+.author[href$="/notandxor"]:after {
+    content: "(Easy O)[PC]"
+    }
+.author[href$="/notavalidsource"]:after {
+    content: "(Dr. Whorrible)[PC]"
+    }
+.author[href$="/noteenoughcharacters9"]:after {
+    content: "(jdubs)[PC]"
+    }
+.author[href$="/notwist"]:after {
+    content: "(notwist)[PC]"
+    }
+.author[href$="/NoWhiteLight"]:after {
+    content: "(Necron2099)[PS3]"
+    }
+.author[href$="/no_longer_lurking"]:after {
+    content: "(DepraveD.v2)[PC]"
+    }
+.author[href$="/nrj"]:after {
+    content: "(hjsym5u3s)[360]"
+    }
+.author[href$="/null_vector"]:after {
+    content: "(Console Cowboy)[PC]"
+    }
+.author[href$="/numbnunspoken"]:after {
+    content: "(flak3d77)[PS3]"
+    }
+.author[href$="/Nutrify"]:after {
+    content: "(Nutri)[PC]"
+    }
+.author[href$="/nysv"]:after {
+    content: "(nysv)[360]"
+    }
+.author[href$="/oaiepwcd"]:after {
+    content: "(oaiepwcd)[]"
+    }
+.author[href$="/oceanographer"]:after {
+    content: "(oceanographer)[360]"
+    }
+.author[href$="/ocfeupwban"]:after {
+    content: "(ocfeupwban)[360]"
+    }
+.author[href$="/ofkomi"]:after {
+    content: "(ofkomi)[]"
+    }
+.author[href$="/OhNoRobot"]:after {
+    content: "(OhNoRobot)[PC]"
+    }
+.author[href$="/OhZone"]:after {
+    content: "(PHoG)[PC]"
+    }
+.author[href$="/OiScout"]:after {
+    content: "(OiScout)[PC]"
+    }
+.author[href$="/OJNeg"]:after {
+    content: "(OJNeg)[PC]"
+    }
+.author[href$="/OK_Eric"]:after {
+    content: "(okEric)[PC]"
+    }
+.author[href$="/OldThunder"]:after {
+    content: "(Satsumo)[PC]"
+    }
+.author[href$="/omega552003"]:after {
+    content: "(omega552003)[PC]"
+    }
+.author[href$="/OmniDonk"]:after {
+    content: "(omnidonk)[360]"
+    }
+.author[href$="/OmnomApplesauce"]:after {
+    content: "(Applesauces)[PC]"
+    }
+.author[href$="/omnomnomo"]:after {
+    content: "(pudgefudge)[PC]"
+    }
+.author[href$="/onemyke"]:after {
+    content: "(onemyke)[PS3]"
+    }
+.author[href$="/onscreen"]:after {
+    content: "(onscreen)[PC]"
+    }
+.author[href$="/onscreenlol"]:after {
+    content: "(onscreen)[PC]"
+    }
+.author[href$="/opie2"]:after {
+    content: "(savvy2)[PC]"
+    }
+.author[href$="/opothehippo"]:after {
+    content: "(opothehippo)[360]"
+    }
+.author[href$="/or1on"]:after {
+    content: "(PHILTHYBIZZLE)[PS3]"
+    }
+.author[href$="/orange_jooze"]:after {
+    content: "(Col. W. Kurtz)[PC]"
+    }
+.author[href$="/orange_kevin"]:after {
+    content: "(*SB* Walton)[PC]"
+    }
+.author[href$="/ORIGAMIkillerSHELBY"]:after {
+    content: "(PROatCOOKING)[PC]"
+    }
+.author[href$="/OSIdude"]:after {
+    content: "(OSIdue)[360]"
+    }
+.author[href$="/Ouldsmobile"]:after {
+    content: "(Ouldsmobile)[PC]"
+    }
+.author[href$="/OverlordXenu"]:after {
+    content: "(OverlordXenu)[PC]"
+    }
+.author[href$="/oxcart"]:after {
+    content: "(G0RGAR)[PC]"
+    }
+.author[href$="/Palivizumab"]:after {
+    content: "(VonWaldo)[PC]"
+    }
+.author[href$="/palmerinjapan"]:after {
+    content: "(palmerinjapan)[360]"
+    }
+.author[href$="/pancakesyrup"]:after {
+    content: "(AzXkiller)[PC]"
+    }
+.author[href$="/paperbowl"]:after {
+    content: "(elmoloveswasabi)[PC]"
+    }
+.author[href$="/Paperclip1"]:after {
+    content: "(Kannival)[PC]"
+    }
+.author[href$="/paplikaplik"]:after {
+    content: "(Paplikaplik)[360]"
+    }
+.author[href$="/paranoidinfidel"]:after {
+    content: "(StabbyInfidel)[PC]"
+    }
+.author[href$="/pardonmyfreedom"]:after {
+    content: "(lt.btygrabber)[PC]"
+    }
+.author[href$="/passingthrough"]:after {
+    content: "(G13 Canuck)[PC]"
+    }
+.author[href$="/pastasauce"]:after {
+    content: "(S4UCE)[PC]"
+    }
+.author[href$="/pbmainiac3"]:after {
+    content: "(TrueCandy)[360]"
+    }
+.author[href$="/pdfarsight"]:after {
+    content: "(pdfarsight)[PC]"
+    }
+.author[href$="/Peaches_For_Me"]:after {
+    content: "(Hypern00b)[360]"
+    }
+.author[href$="/PeeTrain"]:after {
+    content: "(PeeTrain)[PS3]"
+    }
+.author[href$="/Perkstoph"]:after {
+    content: "(Perkstoph)[PC]"
+    }
+.author[href$="/perry24"]:after {
+    content: "(pimonserry)[PC]"
+    }
+.author[href$="/PeterPotamus"]:after {
+    content: "(desimuser)[PS3]"
+    }
+.author[href$="/peturoh"]:after {
+    content: "(Peet The Meat)[PC]"
+    }
+.author[href$="/pewpasaurus"]:after {
+    content: "(Pewp)[PC]"
+    }
+.author[href$="/PeZoAmO"]:after {
+    content: "(PeZoAmO)[PS3]"
+    }
+.author[href$="/phaillanx"]:after {
+    content: "(phaillanx)[PC]"
+    }
+.author[href$="/phaynt"]:after {
+    content: "(phaynt)[PC]"
+    }
+.author[href$="/phenoch"]:after {
+    content: "(Raketenvertreter)[PC]"
+    }
+.author[href$="/Phifty"]:after {
+    content: "(Narwhal O Bacon)[360]"
+    }
+.author[href$="/philkav"]:after {
+    content: "(RedBlade58)[PS3]"
+    }
+.author[href$="/Phinaeus"]:after {
+    content: "(Moreblud)[PC]"
+    }
+.author[href$="/phinnaeus7308"]:after {
+    content: "(phinnaeus)[PC]"
+    }
+.author[href$="/PhoenixReborn"]:after {
+    content: "(NullPhoenix)[PC]"
+    }
+.author[href$="/phreakinpher"]:after {
+    content: "(pasciFIST)[PS3]"
+    }
+.author[href$="/Phrenzik"]:after {
+    content: "(Phrenzik)[PC]"
+    }
+.author[href$="/Phrynobatrachus"]:after {
+    content: "(Phrynobatrachus)[360]"
+    }
+.author[href$="/phuckpolitics"]:after {
+    content: "(Rmjunior51)[360]"
+    }
+.author[href$="/Phykicks"]:after {
+    content: "(Physolator)[PC]"
+    }
+.author[href$="/pickletron"]:after {
+    content: "(pickletron)[PC]"
+    }
+.author[href$="/Pidggit"]:after {
+    content: "(Pidggit)[PC]"
+    }
+.author[href$="/Pilotguy"]:after {
+    content: "(Griffm2n)[360]"
+    }
+.author[href$="/pimpingonwelfare"]:after {
+    content: "(FaMOuS P1MPN)[360]"
+    }
+.author[href$="/piratejake"]:after {
+    content: "(piratejake)[PC]"
+    }
+.author[href$="/pizzatime"]:after {
+    content: "(Chrontime)[PS3]"
+    }
+.author[href$="/plaidshorts"]:after {
+    content: "(Plaidshorts)[PC]"
+    }
+.author[href$="/playingwithfire"]:after {
+    content: "(Pvt Panda Bear)[360]"
+    }
+.author[href$="/pnutpretzel"]:after {
+    content: "(Convivial_Lies)[PC]"
+    }
+.author[href$="/Poison1990"]:after {
+    content: "(HyperGiant)[PC]"
+    }
+.author[href$="/poisonxidea"]:after {
+    content: "(Deathtrifecta)[360]"
+    }
+.author[href$="/Polycarp13"]:after {
+    content: "(Polycarp)[PS3]"
+    }
+.author[href$="/PontiusPirate666"]:after {
+    content: "(RAVENOUS_ROGUE)[PS3]"
+    }
+.author[href$="/PonyGumbo"]:after {
+    content: "(NPR Noah Adams)[PC]"
+    }
+.author[href$="/pootedesu"]:after {
+    content: "(pootedesu)[360]"
+    }
+.author[href$="/PortConflict"]:after {
+    content: "(Newsworthy)[PC]"
+    }
+.author[href$="/portmanteau"]:after {
+    content: "(portmanteau)[360]"
+    }
+.author[href$="/powerdeamon"]:after {
+    content: "(Kool anda Gang)[360]"
+    }
+.author[href$="/Powers"]:after {
+    content: "(DangerPowers)[PC]"
+    }
+.author[href$="/pr0per"]:after {
+    content: "(pr0per)[PC]"
+    }
+.author[href$="/pratoriancleric"]:after {
+    content: "(Pratoriancleric)[PC]"
+    }
+.author[href$="/primeai"]:after {
+    content: "(primeai)[PS3]"
+    }
+.author[href$="/probablyshittingonu"]:after {
+    content: "(familyorfriends)[PS3]"
+    }
+.author[href$="/prunetracy"]:after {
+    content: "(Stump Beefknob)[PC]"
+    }
+.author[href$="/psycho0222"]:after {
+    content: "(psych0222)[PC]"
+    }
+.author[href$="/PsychoBlair"]:after {
+    content: "(lesQQmorPwPw)[PC]"
+    }
+.author[href$="/psychohawk"]:after {
+    content: "(psycho hawk)[PC]"
+    }
+.author[href$="/Psythik"]:after {
+    content: "(Psythik)[PC]"
+    }
+.author[href$="/Psythik (note: ADD ME ALREADY DAMMI"]:after {
+    content: "(Psythik)[PC]"
+    }
+.author[href$="/punk1n"]:after {
+    content: "(BlackSunshine007)[PS3]"
+    }
+.author[href$="/puppetless"]:after {
+    content: "(puppetless)[360]"
+    }
+.author[href$="/purgueflantar"]:after {
+    content: "()[PS3]"
+    }
+.author[href$="/purpleman"]:after {
+    content: "(Qwakatron)[PS3]"
+    }
+.author[href$="/qckslvr42"]:after {
+    content: "(Yabos)[PC]"
+    }
+.author[href$="/Quantic"]:after {
+    content: "(2Timer)[PC]"
+    }
+.author[href$="/QuantumCarrot"]:after {
+    content: "(Quantum^Carrot)[PC]"
+    }
+.author[href$="/Question-Everything"]:after {
+    content: "(360)[360]"
+    }
+.author[href$="/r0ydster"]:after {
+    content: "(R0ydster)[PS3]"
+    }
+.author[href$="/r4v5"]:after {
+    content: "(r4v5)[PC]"
+    }
+.author[href$="/raddevon"]:after {
+    content: "(raddevon)[PC]"
+    }
+.author[href$="/radtankfist"]:after {
+    content: "(rad.tankfist)[PC]"
+    }
+.author[href$="/radu242"]:after {
+    content: "(radu242)[PC]"
+    }
+.author[href$="/rage42"]:after {
+    content: "(rage42)[PC]"
+    }
+.author[href$="/Ragebeau"]:after {
+    content: "(Beauca)[PC]"
+    }
+.author[href$="/rainblood"]:after {
+    content: "(rainblood)[PC]"
+    }
+.author[href$="/raitis-paitis"]:after {
+    content: "(virsaitis)[PC]"
+    }
+.author[href$="/Ralith"]:after {
+    content: "(Ralith)[PC]"
+    }
+.author[href$="/RamblingCoder"]:after {
+    content: "(Zeulance)[PC]"
+    }
+.author[href$="/Rancidstp"]:after {
+    content: "(Rancidpaz)[360]"
+    }
+.author[href$="/random846"]:after {
+    content: "(Random846)[PC]"
+    }
+.author[href$="/RandomFrenchGuy"]:after {
+    content: "(FluffyBunny)[PC]"
+    }
+.author[href$="/randomprofanity"]:after {
+    content: "(TracerBullet34)[PC]"
+    }
+.author[href$="/random_sTp"]:after {
+    content: "(InstrumentofSin)[PC]"
+    }
+.author[href$="/RAPTORJesus666"]:after {
+    content: "(RAPT0R Jesus666)[360]"
+    }
+.author[href$="/Ratty42"]:after {
+    content: "(Ratty42)[PS3]"
+    }
+.author[href$="/rawkies"]:after {
+    content: "(rawkies)[PC]"
+    }
+.author[href$="/Rayoftheday"]:after {
+    content: "(Taxyback)[PC]"
+    }
+.author[href$="/RazorICE"]:after {
+    content: "(Ripenetwork)[PC]"
+    }
+.author[href$="/rb-lilc"]:after {
+    content: "(dasupervneck)[360]"
+    }
+.author[href$="/rboymtj"]:after {
+    content: "(Marplot)[PC]"
+    }
+.author[href$="/RDS"]:after {
+    content: "(RDS.86)[PC]"
+    }
+.author[href$="/recco"]:after {
+    content: "(01Green)[PC]"
+    }
+.author[href$="/red989"]:after {
+    content: "(Red989)[PC]"
+    }
+.author[href$="/reddevil2064"]:after {
+    content: "(reddevil2064)[PC]"
+    }
+.author[href$="/redditchulous"]:after {
+    content: "(TheFinalBacon)[PC]"
+    }
+.author[href$="/Redfoot80"]:after {
+    content: "(oBUSo Redfoot)[PC]"
+    }
+.author[href$="/redhedted"]:after {
+    content: "(theoretikal)[PC]"
+    }
+.author[href$="/Redox"]:after {
+    content: "(Jivedox)[360]"
+    }
+.author[href$="/redskies"]:after {
+    content: "(rad bro)[PC]"
+    }
+.author[href$="/reDust"]:after {
+    content: "(Biokurz)[360]"
+    }
+.author[href$="/red_inferno"]:after {
+    content: "(red_inferno)[PC]"
+    }
+.author[href$="/rejser"]:after {
+    content: "(rejser)[PC]"
+    }
+.author[href$="/ren0"]:after {
+    content: "(omgwtfgreg)[PS3]"
+    }
+.author[href$="/renegade7879"]:after {
+    content: "(zI RAGE Iz)[360]"
+    }
+.author[href$="/reseph"]:after {
+    content: "(Zenoxio)[PC]"
+    }
+.author[href$="/reshin"]:after {
+    content: "(Reshin)[PC]"
+    }
+.author[href$="/resonaut"]:after {
+    content: "(resonaut)[PS3]"
+    }
+.author[href$="/ReverseSquiggly"]:after {
+    content: "(ReverseSquiggly)[PC]"
+    }
+.author[href$="/revos117"]:after {
+    content: "(revo s117)[PC]"
+    }
+.author[href$="/rffptl"]:after {
+    content: "(rffptl)[]"
+    }
+.author[href$="/rgcdukim"]:after {
+    content: "(rgcdukim)[]"
+    }
+.author[href$="/Rhinne"]:after {
+    content: "(Rhinne)[PC]"
+    }
+.author[href$="/riceykin"]:after {
+    content: "(Lisp)[PC]"
+    }
+.author[href$="/RICKYR0CKS"]:after {
+    content: "(RICKYR0CKS)[PC]"
+    }
+.author[href$="/RikuAnsem13"]:after {
+    content: "(KingBeez95)[PS3]"
+    }
+.author[href$="/Rinickulous"]:after {
+    content: "(Rinick)[PC]"
+    }
+.author[href$="/RisenPhoenix"]:after {
+    content: "(RisenPhoenix)[PC]"
+    }
+.author[href$="/Rivensteel"]:after {
+    content: "(Rivensteel)[PC]"
+    }
+.author[href$="/rkttrp"]:after {
+    content: "(rockettrooper)[360]"
+    }
+.author[href$="/rmblr"]:after {
+    content: "(Ramblurr)[PC]"
+    }
+.author[href$="/rmccue"]:after {
+    content: "(rmccue)[PC]"
+    }
+.author[href$="/roastnewt"]:after {
+    content: "(Roast Newt)[360]"
+    }
+.author[href$="/roblobster"]:after {
+    content: "(Captn. Tripps)[PC]"
+    }
+.author[href$="/rockerdudeman"]:after {
+    content: "(rockerdudeman)[PC]"
+    }
+.author[href$="/Rocketeh"]:after {
+    content: "(PC)[PC]"
+    }
+.author[href$="/rocksoid99"]:after {
+    content: "(rocksolid99)[PC]"
+    }
+.author[href$="/rockstarking"]:after {
+    content: "(MaloWolf)[360]"
+    }
+.author[href$="/rogue780"]:after {
+    content: "(rogue780)[PC]"
+    }
+.author[href$="/rogueswing"]:after {
+    content: "(rogueswing)[PS3]"
+    }
+.author[href$="/roland19d"]:after {
+    content: "(extramedium)[PC]"
+    }
+.author[href$="/RombusRK"]:after {
+    content: "(RombusRK)[PC]"
+    }
+.author[href$="/rompasaurusrex"]:after {
+    content: "(Zarbok)[360]"
+    }
+.author[href$="/Roneth"]:after {
+    content: "(Roneth.)[PC]"
+    }
+.author[href$="/Ronlaen"]:after {
+    content: "(Ronlaen)[PC]"
+    }
+.author[href$="/Roughneck-13th"]:after {
+    content: "(Roughneck-13th)[PS3]"
+    }
+.author[href$="/Routari"]:after {
+    content: "(Tradition)[PC]"
+    }
+.author[href$="/Royalhghnss"]:after {
+    content: "(Royal T)[360]"
+    }
+.author[href$="/rr360405"]:after {
+    content: "(rr360405)[PS3]"
+    }
+.author[href$="/RThoR"]:after {
+    content: "(Brew Magic)[PC]"
+    }
+.author[href$="/rubbercat"]:after {
+    content: "(arcsecond)[PC]"
+    }
+.author[href$="/Ruckunsusts"]:after {
+    content: "(Ruckusnuts)[PC]"
+    }
+.author[href$="/ruckusnusts"]:after {
+    content: "(ruckusnuts)[PC]"
+    }
+.author[href$="/Rumble19"]:after {
+    content: "(Rumble19)[PC]"
+    }
+.author[href$="/RunAwayPancake"]:after {
+    content: "(RunAwayPancake)[PS3]"
+    }
+.author[href$="/ruuhkajuusto"]:after {
+    content: "(NON Deafert)[360]"
+    }
+.author[href$="/RyboCollier"]:after {
+    content: "(Rybificus)[PS3]"
+    }
+.author[href$="/Ryuan"]:after {
+    content: "(Ryuan)[PC]"
+    }
+.author[href$="/s0m6u1"]:after {
+    content: "(s0m6u1)[PS3]"
+    }
+.author[href$="/S128K"]:after {
+    content: "(Absurdus)[PC]"
+    }
+.author[href$="/s3krit"]:after {
+    content: "(Sykrit)[PC]"
+    }
+.author[href$="/sadsadsadist"]:after {
+    content: "(Yachtz)[360]"
+    }
+.author[href$="/sailorjerry"]:after {
+    content: "(Dock Boggs)[360]"
+    }
+.author[href$="/Salesman"]:after {
+    content: "(Quball)[PC]"
+    }
+.author[href$="/saltypepper"]:after {
+    content: "(zakmacdonald)[PS3]"
+    }
+.author[href$="/samcbar"]:after {
+    content: "(sambutt01)[360]"
+    }
+.author[href$="/samiblam"]:after {
+    content: "(Gab3r1234)[PS3]"
+    }
+.author[href$="/sandwiches"]:after {
+    content: "(SandwichesTyme)[360]"
+    }
+.author[href$="/SandwichesTyme"]:after {
+    content: "(SandwichesTyme)[360]"
+    }
+.author[href$="/Sario27"]:after {
+    content: "(Sario27)[360]"
+    }
+.author[href$="/Sassanix"]:after {
+    content: "(Sassanix)[PC]"
+    }
+.author[href$="/saucercrab"]:after {
+    content: "(neuborn)[360]"
+    }
+.author[href$="/sauvignonblanc"]:after {
+    content: "(sauvignonblanc)[PC]"
+    }
+.author[href$="/SaveBaconEatNarvals"]:after {
+    content: "(dirtycantflaps)[PC]"
+    }
+.author[href$="/savotage"]:after {
+    content: "(savotage93)[360]"
+    }
+.author[href$="/saysthegiraffe"]:after {
+    content: "(whwang)[PS3]"
+    }
+.author[href$="/ScaryMonster"]:after {
+    content: "(Scarymonster)[PC]"
+    }
+.author[href$="/schickfu"]:after {
+    content: "(schickfu)[PS3]"
+    }
+.author[href$="/schnitzel"]:after {
+    content: "(ayito)[PS3]"
+    }
+.author[href$="/SCI-OP"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/scotty2012"]:after {
+    content: "(lockmidget)[360]"
+    }
+.author[href$="/scratchymuffin"]:after {
+    content: "(scratchysaurus)[PS3]"
+    }
+.author[href$="/sdman11890"]:after {
+    content: "(sdman11890)[PC]"
+    }
+.author[href$="/sebnukem"]:after {
+    content: "(SEBNUKEM)[PC]"
+    }
+.author[href$="/seg-fault"]:after {
+    content: "(seg.fault)[PC]"
+    }
+.author[href$="/segv"]:after {
+    content: "(tguzik)[PS3]"
+    }
+.author[href$="/Seizer001"]:after {
+    content: "(Seizer001)[360]"
+    }
+.author[href$="/Senseitaco"]:after {
+    content: "(Senseitaco)[PC]"
+    }
+.author[href$="/sensory_overload"]:after {
+    content: "(Ozoxo)[PC]"
+    }
+.author[href$="/Sephr"]:after {
+    content: "(Sephr)[360]"
+    }
+.author[href$="/SevenProxies"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/sevenzig"]:after {
+    content: "(Gay Buttsnack)[360]"
+    }
+.author[href$="/Seyen"]:after {
+    content: "(MonocleGentleman)[PS3]"
+    }
+.author[href$="/sgi"]:after {
+    content: "(stochastic)[PC]"
+    }
+.author[href$="/sgnl03"]:after {
+    content: "(Kidney)[PC]"
+    }
+.author[href$="/SgtScream"]:after {
+    content: "(Julian Bashir)[PC]"
+    }
+.author[href$="/sh0rtbu5"]:after {
+    content: "(sh0rtbu5)[PC]"
+    }
+.author[href$="/Shadowinfinity"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/shakuro"]:after {
+    content: "(Shakuro)[PC]"
+    }
+.author[href$="/shane_solo"]:after {
+    content: "(shane_solo)[PS3]"
+    }
+.author[href$="/sharpwriter"]:after {
+    content: "(ProstatePokin)[360]"
+    }
+.author[href$="/Shawn1141"]:after {
+    content: "(Shawn1141)[PS3]"
+    }
+.author[href$="/sheetdog"]:after {
+    content: "(TrashinSnatches)[360]"
+    }
+.author[href$="/sheptard"]:after {
+    content: "(sheptard)[PC]"
+    }
+.author[href$="/sherlok"]:after {
+    content: "(sherlok)[PC]"
+    }
+.author[href$="/shindigs"]:after {
+    content: "(SharkLobster)[PC]"
+    }
+.author[href$="/ShityUnderwear4Lunch"]:after {
+    content: "(Tearstains)[PS3]"
+    }
+.author[href$="/shkibb"]:after {
+    content: "(shkibb)[PC]"
+    }
+.author[href$="/Shmag"]:after {
+    content: "(Shmag)[PC]"
+    }
+.author[href$="/Shrimp Gangster"]:after {
+    content: "(xKNGx)[PC]"
+    }
+.author[href$="/ShrimpGangster"]:after {
+    content: "(xKNGx)[PC]"
+    }
+.author[href$="/shunt31"]:after {
+    content: "(Shunt31)[PS3]"
+    }
+.author[href$="/siffinleex"]:after {
+    content: "(leex)[PC]"
+    }
+.author[href$="/significant_soldier"]:after {
+    content: "(NOCKTRNL)[360]"
+    }
+.author[href$="/silence_is_golden"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/silentdragoon"]:after {
+    content: "(VelocityGirl)[PC]"
+    }
+.author[href$="/Silvares"]:after {
+    content: "(ErgoProxyKilla)[PS3]"
+    }
+.author[href$="/SilverbackGorilla"]:after {
+    content: "(Iainzor)[PC]"
+    }
+.author[href$="/sime"]:after {
+    content: "(sime2009)[PS3]"
+    }
+.author[href$="/simonvc"]:after {
+    content: "(Vapordrop)[PC]"
+    }
+.author[href$="/Sinaf"]:after {
+    content: "(Sinaf de Giraf)[PC]"
+    }
+.author[href$="/SinisterSinister"]:after {
+    content: "(O-SiNisTeR_SiN-O)[PS3]"
+    }
+.author[href$="/sink257"]:after {
+    content: "(sink257)[PC]"
+    }
+.author[href$="/sirkillalot"]:after {
+    content: "(SirKi11a1ot)[PC]"
+    }
+.author[href$="/SirMashew"]:after {
+    content: "(Mashew)[PC]"
+    }
+.author[href$="/SirNuke"]:after {
+    content: "(SirNuke)[PC]"
+    }
+.author[href$="/Sirsmit418"]:after {
+    content: "(Sirsmit418)[PC]"
+    }
+.author[href$="/SirVanderhoot"]:after {
+    content: "(Sir Vanderhoot)[PC]"
+    }
+.author[href$="/Situationalatbest"]:after {
+    content: "(Situational)[PC]"
+    }
+.author[href$="/Sixwaysfromsunday"]:after {
+    content: "((The Mechanic))[PC]"
+    }
+.author[href$="/skeesicks"]:after {
+    content: "(Banang)[PC]"
+    }
+.author[href$="/skEwb"]:after {
+    content: "(skEwb35)[360]"
+    }
+.author[href$="/skinnykyle"]:after {
+    content: "(skinnykyle)[PC]"
+    }
+.author[href$="/skinnylove"]:after {
+    content: "(BodySnatchers)[PC]"
+    }
+.author[href$="/skippy17"]:after {
+    content: "(skippy17)[PC]"
+    }
+.author[href$="/skooma714"]:after {
+    content: "(skooma211)[PC]"
+    }
+.author[href$="/skratch"]:after {
+    content: "(Magnum Jihad)[PC]"
+    }
+.author[href$="/skratchx"]:after {
+    content: "(skratch-x)[PC]"
+    }
+.author[href$="/skyhigh84"]:after {
+    content: "(SammyMayhem)[PS3]"
+    }
+.author[href$="/Skylighter"]:after {
+    content: "(Skylighter9)[360]"
+    }
+.author[href$="/skyshiro"]:after {
+    content: "(I Sky Zer0 I )[360]"
+    }
+.author[href$="/sk_leb"]:after {
+    content: "(sk_leb)[PC]"
+    }
+.author[href$="/slappymcnutface"]:after {
+    content: "(slappymcnutfaces)[PC]"
+    }
+.author[href$="/slayzakattack"]:after {
+    content: "(VB Sgt Hatred)[360]"
+    }
+.author[href$="/Slightly00"]:after {
+    content: "(Slightly00)[PS3]"
+    }
+.author[href$="/Slmhy"]:after {
+    content: "(Slmhy)[PC]"
+    }
+.author[href$="/slothwrangler"]:after {
+    content: "(yabbies19)[360]"
+    }
+.author[href$="/smew"]:after {
+    content: "(smew)[PC]"
+    }
+.author[href$="/smilin_j"]:after {
+    content: "(SmilinJoe)[PC]"
+    }
+.author[href$="/smithson23"]:after {
+    content: "(Catfish84)[360]"
+    }
+.author[href$="/Smyley"]:after {
+    content: "(Smyley)[PC]"
+    }
+.author[href$="/sn0wright"]:after {
+    content: "(koldfuzion)[PC]"
+    }
+.author[href$="/SNAFUBAR"]:after {
+    content: "(Uneasy Ray)[PC]"
+    }
+.author[href$="/snappyshrimpboat"]:after {
+    content: "()[360]"
+    }
+.author[href$="/SND_Crow"]:after {
+    content: "(Der Crow)[360]"
+    }
+.author[href$="/sneedwich"]:after {
+    content: "(sneedwich)[360]"
+    }
+.author[href$="/snehnesne"]:after {
+    content: "(Virtues_of_Evil)[PC]"
+    }
+.author[href$="/snipetrif"]:after {
+    content: "(Zogot)[PC]"
+    }
+.author[href$="/snuff_fu"]:after {
+    content: "(dR.9000)[PC]"
+    }
+.author[href$="/snuka"]:after {
+    content: "(snuka)[PC]"
+    }
+.author[href$="/soccerfreak2332"]:after {
+    content: "(soccerfreak2332)[360]"
+    }
+.author[href$="/sodj1"]:after {
+    content: "(Jahmomma)[PC]"
+    }
+.author[href$="/Solabriga"]:after {
+    content: "(SerpentineShade)[PC]"
+    }
+.author[href$="/Solean"]:after {
+    content: "(Ummu)[PC]"
+    }
+.author[href$="/solidcopy"]:after {
+    content: "(firingforeffect)[PS3]"
+    }
+.author[href$="/Solor"]:after {
+    content: "(Solor)[PC]"
+    }
+.author[href$="/sonar1"]:after {
+    content: "(sonar one)[360]"
+    }
+.author[href$="/Sonicus"]:after {
+    content: "(Sonicus)[PC]"
+    }
+.author[href$="/sosondowah"]:after {
+    content: "(Sosondowah)[PS3]"
+    }
+.author[href$="/soundeziner"]:after {
+    content: "(soundnerd)[PS3]"
+    }
+.author[href$="/soupydreck"]:after {
+    content: "(soupydreck)[360]"
+    }
+.author[href$="/Sovietbagpipes"]:after {
+    content: "(SpeshalKay)[PC]"
+    }
+.author[href$="/sovietdancnbear"]:after {
+    content: "(sovietdancnbear)[360]"
+    }
+.author[href$="/spacekane"]:after {
+    content: "(CrypticAutumn)[360]"
+    }
+.author[href$="/SpaceNinja"]:after {
+    content: "(Space_Ninja)[PC]"
+    }
+.author[href$="/SpartanA24"]:after {
+    content: "(Spartan A24)[360]"
+    }
+.author[href$="/spartan_1337"]:after {
+    content: "(valkyrie_1337)[PC]"
+    }
+.author[href$="/Spawn142"]:after {
+    content: "(DreSter)[PC]"
+    }
+.author[href$="/spazed545"]:after {
+    content: "(SPaZED)[PC]"
+    }
+.author[href$="/spectrum21"]:after {
+    content: "(djspectre)[PS3]"
+    }
+.author[href$="/speedreeder"]:after {
+    content: "(sp33der)[PC]"
+    }
+.author[href$="/speedsteamboat"]:after {
+    content: "(Duckboat)[PC]"
+    }
+.author[href$="/spekesel"]:after {
+    content: "(spekesel)[PC]"
+    }
+.author[href$="/Spell"]:after {
+    content: "(Spella [lljk])[PC]"
+    }
+.author[href$="/spellrm"]:after {
+    content: "(spellrm)[PC]"
+    }
+.author[href$="/Spitonpigeons"]:after {
+    content: "(SpitOnPigeons [reddit])[PC]"
+    }
+.author[href$="/spork801"]:after {
+    content: "(Spork801)[PC]"
+    }
+.author[href$="/spyisaspy"]:after {
+    content: "(Donutfreak)[PC]"
+    }
+.author[href$="/spymercinator"]:after {
+    content: "(Sgt.Stubbs)[PC]"
+    }
+.author[href$="/squilla"]:after {
+    content: "(aftur)[360]"
+    }
+.author[href$="/Srcasm"]:after {
+    content: "(D3cep710n)[PC]"
+    }
+.author[href$="/SSXTEK"]:after {
+    content: "(ol Drippy)[PC]"
+    }
+.author[href$="/Steezus"]:after {
+    content: "(Steezus)[PC]"
+    }
+.author[href$="/Stevefx"]:after {
+    content: "(Stevefx)[PC]"
+    }
+.author[href$="/stevenbrown"]:after {
+    content: "(sbrown)[PC]"
+    }
+.author[href$="/stevenw003"]:after {
+    content: "(SteveWoods)[PS3]"
+    }
+.author[href$="/Stickle197"]:after {
+    content: "(Reaver197)[PC]"
+    }
+.author[href$="/StockGround"]:after {
+    content: "(StockGround)[PC]"
+    }
+.author[href$="/stoplightrave"]:after {
+    content: "(steverett)[PC]"
+    }
+.author[href$="/stopmotionporn"]:after {
+    content: "(Tokenhobo)[PC]"
+    }
+.author[href$="/Stratagem"]:after {
+    content: "(Strategical)[PC]"
+    }
+.author[href$="/stretchpants"]:after {
+    content: "(uucp)[PC]"
+    }
+.author[href$="/StrykerWolf"]:after {
+    content: "(StrykerWolf)[PC]"
+    }
+.author[href$="/StudlyMcDougly"]:after {
+    content: "(StudlyMcDougly)[PC]"
+    }
+.author[href$="/stupidly_intelligent"]:after {
+    content: "(Torque wrench)[PC]"
+    }
+.author[href$="/subconciousness"]:after {
+    content: "(pythonic)[PC]"
+    }
+.author[href$="/sublimelysound"]:after {
+    content: "(SublimelySound)[360]"
+    }
+.author[href$="/SuicidalCheezIt"]:after {
+    content: "(SuicidalCheezIt)[PC]"
+    }
+.author[href$="/sundogdayze"]:after {
+    content: "(wraith27)[PC]"
+    }
+.author[href$="/sunghan"]:after {
+    content: "(sunghan)[PC]"
+    }
+.author[href$="/sunnydelish"]:after {
+    content: "(hasiabh)[PS3]"
+    }
+.author[href$="/sunshine-x"]:after {
+    content: "(jdelisle)[PS3]"
+    }
+.author[href$="/SupaFly-TNT"]:after {
+    content: "(Sunshower)[PC]"
+    }
+.author[href$="/Superbird42"]:after {
+    content: "(Superbird42)[360]"
+    }
+.author[href$="/superjerk"]:after {
+    content: "(Kleptoman1ac)[360]"
+    }
+.author[href$="/Superlogan"]:after {
+    content: "(Superlogan)[PC]"
+    }
+.author[href$="/supersaw"]:after {
+    content: "(Cptn. Obvious)[PC]"
+    }
+.author[href$="/supremesonic"]:after {
+    content: "(supremesonic)[360]"
+    }
+.author[href$="/supremespleen"]:after {
+    content: "(supremespleen)[PC]"
+    }
+.author[href$="/SVENGAL1"]:after {
+    content: "(SVENGAL1)[360]"
+    }
+.author[href$="/sw17ch"]:after {
+    content: "(jvanenk)[PC]"
+    }
+.author[href$="/swaarley"]:after {
+    content: "(swaarley)[PC]"
+    }
+.author[href$="/Swab"]:after {
+    content: "(SwabZZ)[PC]"
+    }
+.author[href$="/SwiftRabbit"]:after {
+    content: "(SwiftRabbit)[PC]"
+    }
+.author[href$="/Swiftraven"]:after {
+    content: "(Swiftraven)[PC]"
+    }
+.author[href$="/swimtothemoon"]:after {
+    content: "(sw1mtothemoon)[PS3]"
+    }
+.author[href$="/swizzcheeze88"]:after {
+    content: "(N4RK0TIC)[360]"
+    }
+.author[href$="/syfran"]:after {
+    content: "(syfran)[PC]"
+    }
+.author[href$="/SynnerG"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/Synthius"]:after {
+    content: "(Synthisys)[PC]"
+    }
+.author[href$="/Syrupy"]:after {
+    content: "(Syrupy)[PC]"
+    }
+.author[href$="/t0phux"]:after {
+    content: "(sirtwat)[PC]"
+    }
+.author[href$="/TacticalToast"]:after {
+    content: "(DrivenDaily)[360]"
+    }
+.author[href$="/Tadi1"]:after {
+    content: "(Tadihop2)[PS3]"
+    }
+.author[href$="/Taerk"]:after {
+    content: "(Taerk)[PC]"
+    }
+.author[href$="/Tarnith"]:after {
+    content: "(Tarnith)[PC]"
+    }
+.author[href$="/Tastingo"]:after {
+    content: "(Tastingo)[PC]"
+    }
+.author[href$="/Tavster"]:after {
+    content: "(Tavster2006)[360]"
+    }
+.author[href$="/TayRay420"]:after {
+    content: "(TayRay)[PC]"
+    }
+.author[href$="/tbandit"]:after {
+    content: "(thoughtbandit)[PC]"
+    }
+.author[href$="/TBob"]:after {
+    content: "(srsTBob)[PC]"
+    }
+.author[href$="/tbreak"]:after {
+    content: "(TBreak)[PC]"
+    }
+.author[href$="/tcardone05"]:after {
+    content: "(JezzaClarkson)[PC]"
+    }
+.author[href$="/tdifhe"]:after {
+    content: "(tdifhe)[]"
+    }
+.author[href$="/TDub0210"]:after {
+    content: "(TDub0210)[PC]"
+    }
+.author[href$="/Teamster"]:after {
+    content: "(SiTeamster)[PC]"
+    }
+.author[href$="/TeddyPicker"]:after {
+    content: "(Findlebot)[360]"
+    }
+.author[href$="/teejayniu"]:after {
+    content: "(teejayniu)[360]"
+    }
+.author[href$="/TehHat"]:after {
+    content: "(TehHat)[PC]"
+    }
+.author[href$="/TehIchigo"]:after {
+    content: "(Dr. ShameWow)[PC]"
+    }
+.author[href$="/teline"]:after {
+    content: "(teline)[PC]"
+    }
+.author[href$="/tetshi"]:after {
+    content: "(Seed_0911)[PC]"
+    }
+.author[href$="/texasfan9"]:after {
+    content: "(Big_Fuit)[PC]"
+    }
+.author[href$="/TfnJ"]:after {
+    content: "(TfnJ)[PS3]"
+    }
+.author[href$="/tgothe"]:after {
+    content: "(tgothe)[PC]"
+    }
+.author[href$="/thatguitarist"]:after {
+    content: "(NJJVK)[PC]"
+    }
+.author[href$="/thatguywithanewname"]:after {
+    content: "(xiaoen)[PC]"
+    }
+.author[href$="/THCTimmy"]:after {
+    content: "(.:Timmy:.)[PC]"
+    }
+.author[href$="/theabyssgazesalso"]:after {
+    content: "(BrianNZ)[360]"
+    }
+.author[href$="/theawesomelucas"]:after {
+    content: "(theawesomelucas)[PC]"
+    }
+.author[href$="/TheBaconExperiment"]:after {
+    content: "(RandomLog1c)[PC]"
+    }
+.author[href$="/thebeardedclock"]:after {
+    content: "(scientificinquiry)[PC]"
+    }
+.author[href$="/theblasphemer"]:after {
+    content: "(Emu Massacre13)[360]"
+    }
+.author[href$="/theBlawesome"]:after {
+    content: "(Blawesome)[PC]"
+    }
+.author[href$="/thechilipepper0"]:after {
+    content: "(thechilipepper0)[PS3]"
+    }
+.author[href$="/thecustodian"]:after {
+    content: "(The_Custodian)[PS3]"
+    }
+.author[href$="/thedeathmachine"]:after {
+    content: "(ipushmycar)[360]"
+    }
+.author[href$="/TheEnd7"]:after {
+    content: "(Equinox7)[PC]"
+    }
+.author[href$="/TheFreeeMan"]:after {
+    content: "(Equinox7)[PC]"
+    }
+.author[href$="/TheFrin"]:after {
+    content: "(TheFrin)[PC]"
+    }
+.author[href$="/thegreatestgarchomp"]:after {
+    content: "(delial)[PC]"
+    }
+.author[href$="/thejameswoods"]:after {
+    content: "(nuttysquirelguy)[360]"
+    }
+.author[href$="/TheJeffa"]:after {
+    content: "(Jeffalocalypse)[360]"
+    }
+.author[href$="/thejournalizer"]:after {
+    content: "(sabotagex13)[360]"
+    }
+.author[href$="/thekicker"]:after {
+    content: "(the KICK3R)[360]"
+    }
+.author[href$="/TheKillingVoid"]:after {
+    content: "(Killing Void)[360]"
+    }
+.author[href$="/ThePerfectOnion"]:after {
+    content: "(ThePerfectOnion)[PC]"
+    }
+.author[href$="/therandomizer"]:after {
+    content: "(johnnygaylord)[360]"
+    }
+.author[href$="/ThereIsNoJustice"]:after {
+    content: "(Kamikaze579)[PC]"
+    }
+.author[href$="/Theron14"]:after {
+    content: "(Theron311)[PS3]"
+    }
+.author[href$="/theseleadsalts"]:after {
+    content: "(Battlecake)[PS3]"
+    }
+.author[href$="/TheStagesmith"]:after {
+    content: "(Thermite9000)[PC]"
+    }
+.author[href$="/TheStrelok"]:after {
+    content: "(TheStrelok)[PC]"
+    }
+.author[href$="/THETARBENDER"]:after {
+    content: "([NBR] TarBender)[PC]"
+    }
+.author[href$="/thethirteen37"]:after {
+    content: "(beazle)[PC]"
+    }
+.author[href$="/TheVardogr"]:after {
+    content: "(TheVardogr)[PC]"
+    }
+.author[href$="/thewafflecaust"]:after {
+    content: "(thewafflecaust)[PC]"
+    }
+.author[href$="/TheWrightMatt"]:after {
+    content: "(AzleGamer)[PC]"
+    }
+.author[href$="/thezenarcher"]:after {
+    content: "(TR Zen Archer)[360]"
+    }
+.author[href$="/the_crimson_king"]:after {
+    content: "(Kint)[360]"
+    }
+.author[href$="/the_rabbit"]:after {
+    content: "(R0G3R W4BB17)[PC]"
+    }
+.author[href$="/the_unforgiven"]:after {
+    content: "(stalker_CH)[PC]"
+    }
+.author[href$="/thieving_magpie"]:after {
+    content: "(Raila Odinga)[360]"
+    }
+.author[href$="/THISHURTSYOU"]:after {
+    content: "(Malaycious)[360]"
+    }
+.author[href$="/ThisIsForReal"]:after {
+    content: "(EJStevo)[PS3]"
+    }
+.author[href$="/thisismykarmaface"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/thorgeir23"]:after {
+    content: "(Nemesis23)[PC]"
+    }
+.author[href$="/Thousands"]:after {
+    content: "(NME DomeShot)[360]"
+    }
+.author[href$="/thr_"]:after {
+    content: "(TotalTHR)[PC]"
+    }
+.author[href$="/tickbox"]:after {
+    content: "(tickbox)[PC]"
+    }
+.author[href$="/tifosichris"]:after {
+    content: "(tifosichris)[PS3]"
+    }
+.author[href$="/tigastitig18"]:after {
+    content: "(eruin_ph)[PS3]"
+    }
+.author[href$="/tikibaloni"]:after {
+    content: "(Gott.)[PC]"
+    }
+.author[href$="/timberbeam"]:after {
+    content: "(careforce1)[PC]"
+    }
+.author[href$="/TIMMY_THE_LARGE"]:after {
+    content: "(Edal Wice)[PC]"
+    }
+.author[href$="/tnjwsxh"]:after {
+    content: "(tnjwsxh)[]"
+    }
+.author[href$="/TobyDumb"]:after {
+    content: "(LadyKillJoy)[PC]"
+    }
+.author[href$="/Toews19"]:after {
+    content: "(CardboardAndy)[360]"
+    }
+.author[href$="/Tokeli"]:after {
+    content: "(Tokeli)[PC]"
+    }
+.author[href$="/tomchuk"]:after {
+    content: "(tomchuk1)[PS3]"
+    }
+.author[href$="/Tommah666"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/TomOfTheWild"]:after {
+    content: "(TomOfAwesome)[PC]"
+    }
+.author[href$="/tonster181"]:after {
+    content: "(tonster181)[PC]"
+    }
+.author[href$="/TooL-"]:after {
+    content: "(A6ftTooL)[PC]"
+    }
+.author[href$="/topher200"]:after {
+    content: "(topher200)[PC]"
+    }
+.author[href$="/torej"]:after {
+    content: "(Torb)[PC]"
+    }
+.author[href$="/totaljerk"]:after {
+    content: "(wholly2b)[PS3]"
+    }
+.author[href$="/treytech"]:after {
+    content: "(Whataburger)[PC]"
+    }
+.author[href$="/Trizelda"]:after {
+    content: "(Trizelda)[PC]"
+    }
+.author[href$="/trober"]:after {
+    content: "(trober256)[PC]"
+    }
+.author[href$="/troglodyte"]:after {
+    content: "(Troglodyte)[PC]"
+    }
+.author[href$="/trogo"]:after {
+    content: "(tr0g0)[360]"
+    }
+.author[href$="/trollingisfun"]:after {
+    content: "((-W3rD-)GotMilk)[PC]"
+    }
+.author[href$="/Tronaxious"]:after {
+    content: "(Tronaxious)[PC]"
+    }
+.author[href$="/troutable"]:after {
+    content: "(Harry Tuttle)[PC]"
+    }
+.author[href$="/troyhw"]:after {
+    content: "(troyhw)[PS3]"
+    }
+.author[href$="/TrueAmateur"]:after {
+    content: "(IStealDogs)[360]"
+    }
+.author[href$="/tulir"]:after {
+    content: "(tulir)[PC]"
+    }
+.author[href$="/turdles"]:after {
+    content: "(savesthesilence)[360]"
+    }
+.author[href$="/TuxedoMax"]:after {
+    content: "(Theta Bright)[PC]"
+    }
+.author[href$="/tvon"]:after {
+    content: "(tomvons)[360]"
+    }
+.author[href$="/TWillz"]:after {
+    content: "(TWillz)[PS3]"
+    }
+.author[href$="/TwinBloodTalons"]:after {
+    content: "(twinkidgamefreak)[PS3]"
+    }
+.author[href$="/twistedd"]:after {
+    content: "(twistedsciences)[PC]"
+    }
+.author[href$="/Twofer"]:after {
+    content: "(Flashbaxx)[360]"
+    }
+.author[href$="/twotoedsleuth"]:after {
+    content: "(.twotoedsleuth.)[PC]"
+    }
+.author[href$="/twoytaylor_lolz"]:after {
+    content: "(twoytaylor lolz)[360]"
+    }
+.author[href$="/Twyst"]:after {
+    content: "(Twyst)[PC]"
+    }
+.author[href$="/Tyaedalis"]:after {
+    content: "(Tyaedalis)[PC]"
+    }
+.author[href$="/TyIzaeL"]:after {
+    content: "(TyIzaeL)[PC]"
+    }
+.author[href$="/Typehigh"]:after {
+    content: "(Typehigh)[PC]"
+    }
+.author[href$="/tzhou"]:after {
+    content: "(tzhou)[PC]"
+    }
+.author[href$="/uebr_guy"]:after {
+    content: "(uebr guy)[PC]"
+    }
+.author[href$="/UncleMonteh"]:after {
+    content: "(UncleMonteh)[PC]"
+    }
+.author[href$="/UnclePervy"]:after {
+    content: "(X-Raided420)[PS3]"
+    }
+.author[href$="/UnderTheMud"]:after {
+    content: "(UnderTheMud)[PC]"
+    }
+.author[href$="/Unidan"]:after {
+    content: "([ppp]Unidan)[PC]"
+    }
+.author[href$="/unit5"]:after {
+    content: "(wert107)[PC]"
+    }
+.author[href$="/unitconversion"]:after {
+    content: "(dano magnum)[PC]"
+    }
+.author[href$="/unoriginalgangsta"]:after {
+    content: "(2wiSteD)[PC]"
+    }
+.author[href$="/unrealtrip"]:after {
+    content: "(unrealtrip)[360]"
+    }
+.author[href$="/unusualbob"]:after {
+    content: "(unusualbob)[PC]"
+    }
+.author[href$="/usajlh"]:after {
+    content: "(panda_prosecuter)[PC]"
+    }
+.author[href$="/USERMANEALREADYTAKEN"]:after {
+    content: "()[360]"
+    }
+.author[href$="/uzimonkey"]:after {
+    content: "(UziMonkey)[PC]"
+    }
+.author[href$="/Vageli"]:after {
+    content: "(vageli)[PS3]"
+    }
+.author[href$="/Valefox"]:after {
+    content: "(Valefox)[PC]"
+    }
+.author[href$="/vampiricrogu3"]:after {
+    content: "(vampiricrogu3)[PC]"
+    }
+.author[href$="/Vanofthedawn"]:after {
+    content: "(Vanofthedawn)[PC]"
+    }
+.author[href$="/veentastic"]:after {
+    content: "(veenified)[PC]"
+    }
+.author[href$="/vertago"]:after {
+    content: "(VeRtAg0)[PC]"
+    }
+.author[href$="/videofreak222"]:after {
+    content: "(NaughtyNoodle)[PC]"
+    }
+.author[href$="/Vidowmaker"]:after {
+    content: "(Vidowmaker)[360]"
+    }
+.author[href$="/vincent118"]:after {
+    content: "(Cpt.McBob)[PC]"
+    }
+.author[href$="/VinceS22"]:after {
+    content: "(Capta1nQuazar)[360]"
+    }
+.author[href$="/vishuzmanuva"]:after {
+    content: "(Vishuz_Manuva)[PC]"
+    }
+.author[href$="/vivalamexico"]:after {
+    content: "(christophwells)[PC]"
+    }
+.author[href$="/Vive_Emperour"]:after {
+    content: "(Da_bradler)[PC]"
+    }
+.author[href$="/volt_ron"]:after {
+    content: "(Ron Fiasco)[360]"
+    }
+.author[href$="/voodoowizard"]:after {
+    content: "()[PC]"
+    }
+.author[href$="/vwllss"]:after {
+    content: "(Omni.)[PC]"
+    }
+.author[href$="/w35z0r"]:after {
+    content: "(w35z0r)[PC]"
+    }
+.author[href$="/W3rDGotMilk"]:after {
+    content: "((-W3rD-)GotMilk)[PC]"
+    }
+.author[href$="/waffle07"]:after {
+    content: "(daw5066)[360]"
+    }
+.author[href$="/Wafflyn"]:after {
+    content: "(WinslowTheGreat1)[PC]"
+    }
+.author[href$="/Wagon-Man"]:after {
+    content: "(WagonMan42)[PS3]"
+    }
+.author[href$="/Wahoa"]:after {
+    content: "(Wahoa)[PC]"
+    }
+.author[href$="/wahoozerman"]:after {
+    content: "(Wahoozerman)[PC]"
+    }
+.author[href$="/Waldo_II"]:after {
+    content: "(Waldo_II)[PC]"
+    }
+.author[href$="/walgman"]:after {
+    content: "(Sloppy Sevenths)[360]"
+    }
+.author[href$="/wallyflops"]:after {
+    content: "(wallyflops)[PC]"
+    }
+.author[href$="/Warborn304"]:after {
+    content: "(Warborn304)[PC]"
+    }
+.author[href$="/Wardez"]:after {
+    content: "(Kojack)[PC]"
+    }
+.author[href$="/Warpigpen"]:after {
+    content: "(Warpigpen)[PS3]"
+    }
+.author[href$="/wasdy1"]:after {
+    content: "(Bac0n Samm1ch)[PC]"
+    }
+.author[href$="/washburnd"]:after {
+    content: "(medicated_8D)[PS3]"
+    }
+.author[href$="/watchinthewheels"]:after {
+    content: "(kinesis361)[360]"
+    }
+.author[href$="/watterson"]:after {
+    content: "(watterson)[PC]"
+    }
+.author[href$="/weirdalchemy"]:after {
+    content: "(awesomedotrad)[PS3]"
+    }
+.author[href$="/werny"]:after {
+    content: "(ArthurVandeIay)[360]"
+    }
+.author[href$="/WexWexler"]:after {
+    content: "(WexWexler)[360]"
+    }
+.author[href$="/WhaleAndPetunias"]:after {
+    content: "(Jest311)[PS3]"
+    }
+.author[href$="/what_the_deuce"]:after {
+    content: "(PitchBlackula)[360]"
+    }
+.author[href$="/whoawen"]:after {
+    content: "(whoawen)[PC]"
+    }
+.author[href$="/Whose_Chariot"]:after {
+    content: "(Crab_Puncher)[PS3]"
+    }
+.author[href$="/wiLD0"]:after {
+    content: "(wiLD0)[PC]"
+    }
+.author[href$="/WillAskUAnything"]:after {
+    content: "(Halfsack)[PC]"
+    }
+.author[href$="/wily6"]:after {
+    content: "(nosl1w)[PS3]"
+    }
+.author[href$="/wiraqcza"]:after {
+    content: "(szczqcz_PL)[PS3]"
+    }
+.author[href$="/Witcher_Gates"]:after {
+    content: "(Gatesy)[PC]"
+    }
+.author[href$="/Witness"]:after {
+    content: "(.Witness)[PC]"
+    }
+.author[href$="/wo1ke"]:after {
+    content: "(Peace Panda)[PC]"
+    }
+.author[href$="/wonderdolkje"]:after {
+    content: "(Donderwolk)[360]"
+    }
+.author[href$="/wouldyoukindly"]:after {
+    content: "(wouldyoukindly13)[PS3]"
+    }
+.author[href$="/wryly"]:after {
+    content: "(hermbot)[360]"
+    }
+.author[href$="/wtfdave"]:after {
+    content: "(itsthatguy)[PC]"
+    }
+.author[href$="/wtqer"]:after {
+    content: "(hailfire27)[PC]"
+    }
+.author[href$="/wubby013"]:after {
+    content: "(wubby013tw)[PS3]"
+    }
+.author[href$="/Wunt"]:after {
+    content: "(Coupa)[PC]"
+    }
+.author[href$="/x2sean1x"]:after {
+    content: "(x2sean1x)[360]"
+    }
+.author[href$="/xabbott"]:after {
+    content: "(xabbott)[PC]"
+    }
+.author[href$="/xeer2000"]:after {
+    content: "(donnchaoc)[PS3]"
+    }
+.author[href$="/Xephyr"]:after {
+    content: "(Xephyrius)[PC]"
+    }
+.author[href$="/xhazerdusx"]:after {
+    content: "(xhazerdusx)[PC]"
+    }
+.author[href$="/Xikawnix"]:after {
+    content: "(TheBlackSheep07)[PC]"
+    }
+.author[href$="/Xiol"]:after {
+    content: "(Xiol)[PC]"
+    }
+.author[href$="/xireth"]:after {
+    content: "(robojoos)[PC]"
+    }
+.author[href$="/XitionX"]:after {
+    content: "(Cpt_Xition)[PC]"
+    }
+.author[href$="/xlevus"]:after {
+    content: "(xlevus)[360]"
+    }
+.author[href$="/Xlyfer"]:after {
+    content: "(Apothikuric)[PC]"
+    }
+.author[href$="/Xpmonster"]:after {
+    content: "(Xpmonster)[PC]"
+    }
+.author[href$="/xtcbadcompanyalt"]:after {
+    content: "(xtc DeathStrike)[360]"
+    }
+.author[href$="/xur"]:after {
+    content: "(xurich)[PC]"
+    }
+.author[href$="/xvtsx"]:after {
+    content: "(xvtsx)[PC]"
+    }
+.author[href$="/XyZeR"]:after {
+    content: "(XyZeR)[PC]"
+    }
+.author[href$="/yarjar"]:after {
+    content: "(yarjar)[PS3]"
+    }
+.author[href$="/Yegger"]:after {
+    content: "(Major Bowlage)[360]"
+    }
+.author[href$="/yep_yeppers"]:after {
+    content: "(dah_numbah_5)[PS3]"
+    }
+.author[href$="/ymtm"]:after {
+    content: "(Samuel)[PC]"
+    }
+.author[href$="/youcancallmeBill"]:after {
+    content: "(0-bill-0)[PC]"
+    }
+.author[href$="/youcaughtafish"]:after {
+    content: "(arturoasarus)[360]"
+    }
+.author[href$="/youlostthegame"]:after {
+    content: "(jackthemuffin27)[PS3]"
+    }
+.author[href$="/ystckcfrcp"]:after {
+    content: "(ystckcfrcp)[]"
+    }
+.author[href$="/YucK57"]:after {
+    content: "([YucK])[PC]"
+    }
+.author[href$="/yyrebkb"]:after {
+    content: "(yyrebkb)[]"
+    }
+.author[href$="/z00b"]:after {
+    content: "(zo|ob)[PC]"
+    }
+.author[href$="/Zaemz"]:after {
+    content: "(Zaemz)[PC]"
+    }
+.author[href$="/Zafmg"]:after {
+    content: "(frog_sack)[PS3]"
+    }
+.author[href$="/zalos"]:after {
+    content: "(zalos)[PC]"
+    }
+.author[href$="/zbun"]:after {
+    content: "(zeebz)[PC]"
+    }
+.author[href$="/zeddz"]:after {
+    content: "(zeddz)[PC]"
+    }
+.author[href$="/ZennouRyuu"]:after {
+    content: "(Nerdcore)[PC]"
+    }
+.author[href$="/Zenshai"]:after {
+    content: "(Zenshai)[PC]"
+    }
+.author[href$="/zeppelinj0"]:after {
+    content: "(jaypeedaylee)[PS3]"
+    }
+.author[href$="/zero-irony"]:after {
+    content: "(Barium)[PC]"
+    }
+.author[href$="/ZeroGhz"]:after {
+    content: "(ZeroGhz)[PC]"
+    }
+.author[href$="/Zettaslow"]:after {
+    content: "(Senpai)[PC]"
+    }
+.author[href$="/zfdzsx"]:after {
+    content: "(zfdzsx)[]"
+    }
+.author[href$="/Zhaosen"]:after {
+    content: "(Harkin)[PC]"
+    }
+.author[href$="/ziggurattt"]:after {
+    content: "(ziggurattt)[PC]"
+    }
+.author[href$="/zingbat"]:after {
+    content: "(dhilan)[360]"
+    }
+.author[href$="/ZomgJambi"]:after {
+    content: "(ZomgJambi1)[PC]"
+    }
+.author[href$="/ZomgJambi1"]:after {
+    content: "(ZomgJambi)[PC]"
+    }
+.author[href$="/zrem"]:after {
+    content: "(zrem)[PC]"
+    }
+.author[href$="/ZuluZuluZulu"]:after {
+    content: "(Zulu Zulu Zulu)[360]"
+    }
+.author[href$="/zzzzzzzzzzzz"]:after {
+    content: "(azeees)[PC]"
+    }
+.author[href$="/_an1sh"]:after {
+    content: "(Wracken)[PC]"
+    }
+.author[href$="/_Spy_"]:after {
+    content: "(Kuznetzov)[PS3]"
+    }
+.author[href$="/_Spy__"]:after {
+    content: "(Kuznatzov)[PS3]"
+    }

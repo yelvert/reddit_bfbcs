@@ -1,0 +1,67 @@
+http://api.bfbcs.com/api/pc?players=BBHoss&fields=general,online
+http://api.bfbcs.com/api/pc?players=(names comma separated)&fields=(fields comma seperated)
+
+{
+  "players": [{
+    "name": obvious,
+    "platform": obvious,
+    "rank": obvious,
+    "rank_name": full rank name all caps,
+    "veteran": veteren level,
+    "score": total score achieved,
+    "level": ?level?,
+    "kills": total kills,
+    "deaths": total deaths,
+    "time": time played in seconds,
+    "elo": ?skill level?,
+    "form": ???,
+    "date_lastupdate": obvious,
+    "date_lastcheck": obvious,
+    "lastcheck": what happened last time it was checked,
+    "count_updates": number of updates,
+    "general": {
+        "accuracy": obvious,
+        "dogr": ?times players dog tages have been taken?,
+        "dogt": dog tags taken,
+        "elo0": ???,
+        "elo1": ???,
+        "games": rounds played,
+        "goldedition": obvious,
+        "losses": obvious,
+        "sc_assault": assault score,
+        "sc_award": award score,
+        "sc_bonus": bonus score,
+        "sc_demo": engineer score,
+        "sc_general": general score,
+        "sc_objective": objective score,
+        "sc_recon": recon score,
+        "sc_squad": squad score,
+        "sc_support": support score,
+        "sc_team": team score,
+        "sc_vehicle": vehicle score,
+        "slevel": ???,
+        "spm": ???,
+        "spm0": ???,
+        "spm1": ???,
+        "srank": ???,
+        "sveteran": ???,
+        "teamkills": obvious,
+        "udogt": ???,
+        "wins": obvious,
+        "score_rank": score rank
+    },
+    "queue": false,
+    "queue_info": {
+        "queuefull": "Queue is full"
+    },
+    "lastonline": "2011-01-07T05:55:57+00:00",
+    "clantag": obvious,
+    "server": { last server
+        "addr": ip,
+        "qport": port,
+        "name": name
+    }
+  }],
+  "requested": 1,
+  "found": 1
+}
