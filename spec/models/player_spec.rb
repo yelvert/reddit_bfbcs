@@ -62,11 +62,8 @@ describe Player do
           "name": "! TBGclan.com | CONQ HARD GUNG HO STYLE!"
       }
     }'
-    reddit_name = "BBHoss"
-    player = Player.build_from_api(reddit_name, api_return)
-    player.reddit_name.should eql("BBHoss")
-    player.game_name.should eql("BBHoss")
-    player.platform.should eql("pc")
+    player = Player.new(:reddit_name => "BBHoss", :game_name => "BBHoss", :platform => "PC")
+    player.build_from_api(JSON.parse(api_return))
     player.clan_tag.should eql("CBB")
     player.rank.should eql(30)
     player.rank_name.should eql("SECOND LIEUTENANT III")

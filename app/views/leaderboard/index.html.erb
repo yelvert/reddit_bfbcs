@@ -1,0 +1,27 @@
+<table>
+  <thead>
+    <tr>
+      <th>Baddit Rank</th>
+      <th>Overall Rank</th>
+      <th>Reddit Username</th>
+      <th>InGame Name</th>
+      <th>Platform</th>
+      <th>Score</th>
+      <th>K/D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% baddit_rank = 0 %>
+    <% @players.each do |player| %>
+      <tr>
+        <td><%= baddit_rank += 1 %></td>
+        <td><%= player.score_rank %></td>
+        <td><%= link_to player.reddit_name, "http://www.reddit.com/user/#{CGI::escape(player.reddit_name)}" %></td>
+        <td><%= link_to player.game_name, "http://bfbcs.com/stats_#{player.platform.downcase}/#{CGI::escape(player.game_name)}" %></td>
+        <td><%= player.platform.upcase %></td>
+        <td><%= player.score %></td>
+        <td><%= player.kills %> Kills / <%= player.deaths %> Deaths (<%= player.kills.to_f/player.deaths.to_f%>)</td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
