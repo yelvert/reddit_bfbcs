@@ -6,6 +6,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'syntax'
 
+gem 'heroku'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'steak', '>= 1.0.0.rc.1'
