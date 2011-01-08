@@ -8,7 +8,8 @@
         <th>Reddit Username</th>
         <th>InGame Name</th>
         <th>Platform</th>
-        <th>Score</th>
+        <th>Total Score</th>
+        <th>Score Per Minute</th>
       </tr>
     </thead>
     <tbody>
@@ -20,6 +21,7 @@
           <td><%= link_to player.game_name, player %></td>
           <td><%= player.platform.upcase %></td>
           <td><%= player.score %></td>
+          <td><%= sprintf("%0.02f", player.score.to_f/(player.time_played.to_i/60)) %></td>
         </tr>
       <% end %>
     </tbody>
@@ -33,11 +35,12 @@
       "aLengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
       "iDisplayLength": 100,
       "aoColumns": [
+        {"bSearchable": true, "sType": 'numeric'},
         {"bSearchable": true},
         {"bSearchable": true},
         {"bSearchable": true},
-        {"bSearchable": true},
-        {"bSearchable": true}
+        {"sType": 'numeric'},
+        {"sType": 'numeric'}
       ]
     })
   })
