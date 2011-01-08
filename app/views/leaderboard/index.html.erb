@@ -20,7 +20,7 @@
         <td><%= link_to player.game_name, "http://bfbcs.com/stats_#{player.platform.downcase}/#{CGI::escape(player.game_name)}" %></td>
         <td><%= player.platform.upcase %></td>
         <td><%= player.score %></td>
-        <td><%= player.kills %> Kills / <%= player.deaths %> Deaths (<%= player.kills.to_f/player.deaths.to_f%>)</td>
+        <td><%= player.kills %> Kills / <%= player.deaths %> Deaths (<%= sprintf("%0.2f", (player.kills.to_f/player.deaths.to_f)) %>)</td>
       </tr>
     <% end %>
   </tbody>
