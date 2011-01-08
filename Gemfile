@@ -7,6 +7,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'syntax'
 
 gem 'heroku'
+gem 'taps'
 
 group :development, :test do
   gem 'rspec-rails'
