@@ -5,9 +5,9 @@ class Player < ActiveRecord::Base
   validates_uniqueness_of :game_name, :scope => :platform
   
   def validate
-    reddit_url = URI.parse("http://www.reddit.com/user/#{CGI::escape(self.reddit_name)}")
-    if Net::HTTP.get_response(reddit_url) == Net::HTTPNotFound
-      errors.add(:reddit_name, "That Reddit user does not seem to exist.")
+    reddit = URI.parse("http://www.reddit.com/user/#{CGI::escape(self.reddit_name)}")
+    if Net::HTTP.get_response(reddit).class == Net::HTTPNotFound
+      errors.add_to_base("That Reddit user does not seem to exist.")
     else
       stats_url = URI.parse("http://api.bfbcs.com/api/#{self.platform.downcase}?players=#{CGI::escape(self.game_name)}&fields=general,online")
       Net::HTTP.get(stats_url) =~ /(\{.*\}\Z)/
@@ -17,7 +17,7 @@ class Player < ActiveRecord::Base
         Rails.logger.info "Stat Fetch error -- #{api.inspect}"
       else
         if api["players"].size == 1
-          self..build_from_api(api["players"][0])
+          self.build_from_api(api["players"][0])
         end
       end
     end

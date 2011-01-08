@@ -22,8 +22,8 @@ If you don't show up or your stats are wrong, be patient, stats can take up to 4
           <td><%= link_to player.reddit_name, player.reddit_url %></td>
           <td><%= link_to player.game_name, player %></td>
           <td><%= player.platform.upcase %></td>
-          <td><%= player.score %></td>
-          <td><%= sprintf("%0.02f", player.score.to_f/(player.time_played.to_i/60)) %></td>
+          <td><%= player.score.nil? ? 0 : player.score %></td>
+          <td><%= (player.score.nil? or player.time_played.nil? or (player.score.to_f/(player.time_played.to_i/60)).nan? or (player.score.to_f/(player.time_played.to_i/60)).infinite?) ? 0 : sprintf("%0.02f", player.score.to_f/(player.time_played.to_i/60)) %></td>
         </tr>
       <% end %>
     </tbody>

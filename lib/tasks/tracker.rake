@@ -27,7 +27,7 @@ namespace :badditors do
     redditors.each do |r|
       if Player.where(:game_name => r[:game_name], :platform => r[:platform]).blank?
         reddit_url = URI.parse("http://www.reddit.com/user/#{CGI::escape(r[:reddit_name])}") rescue next
-        unless Net::HTTP.get_response(reddit_url) == Net::HTTPNotFound
+        unless Net::HTTP.get_response(reddit_url).class == Net::HTTPNotFound
           stats_url = URI.parse("http://api.bfbcs.com/api/#{r[:platform].downcase}?players=#{CGI::escape(r[:game_name])}&fields=general,online") rescue next
           api = JSON.parse(Net::HTTP.get(stats_url)) rescue next
           if api["error"]
