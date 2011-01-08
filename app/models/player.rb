@@ -23,6 +23,14 @@ class Player < ActiveRecord::Base
     end
   end
   
+  def reddit_url
+    "http://www.reddit.com/user/#{self.reddit_name}"
+  end
+  
+  def bfbcs_url
+    "http://bfbcs.com/stats_#{self.platform.downcase}/#{CGI::escape(self.game_name)}"
+  end
+  
   def build_from_api(api)
     self.clan_tag = api["clantag"].to_s
     self.rank = api["rank"].to_i

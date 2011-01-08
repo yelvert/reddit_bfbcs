@@ -16,8 +16,8 @@
       <% @players.each do |player| %>
         <tr>
           <td><%= baddit_rank += 1 %></td>
-          <td><%= link_to player.reddit_name, "http://www.reddit.com/user/#{CGI::escape(player.reddit_name)}" %></td>
-          <td><%= link_to player.game_name, "http://bfbcs.com/stats_#{player.platform.downcase}/#{CGI::escape(player.game_name)}" %></td>
+          <td><%= link_to player.reddit_name, player.reddit_url %></td>
+          <td><%= link_to player.game_name, player %></td>
           <td><%= player.platform.upcase %></td>
           <td><%= player.score %></td>
         </tr>

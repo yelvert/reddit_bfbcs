@@ -1,2 +1,144 @@
-<h1>Player#show</h1>
-<p>Find me in app/views/player/show.html.erb</p>
+<%= link_to "Back to Leaderboard", players_url %>
+<br /><br />
+<table>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Reddit Name</th>
+    <td><%= link_to @player.reddit_name, @player.reddit_url %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Game Name</th>
+    <td><%= link_to @player.game_name, @player.bfbcs_url %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Platform</th>
+    <td><%= @player.platform %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Clan Tag</th>
+    <td><%= @player.clan_tag %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Rank</th>
+    <td><%= @player.rank %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Rank Name</th>
+    <td><%= @player.rank_name %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Veteren Level</th>
+    <td><%= @player.veteren_level %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Score</th>
+    <td><%= @player.score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Kills</th>
+    <td><%= @player.kills %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Deaths</th>
+    <td><%= @player.deaths %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Time Played</th>
+    <td><%= @player.time_played %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Skill Level</th>
+    <td><%= @player.skill_level %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Last Update</th>
+    <td><%= @player.last_update %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Lastcheck</th>
+    <td><%= @player.lastcheck %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Accuracy</th>
+    <td><%= @player.accuracy %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Dog Tags Taken</th>
+    <td><%= @player.dog_tags_taken %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Games Played</th>
+    <td><%= @player.games_played %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Losses</th>
+    <td><%= @player.losses %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Wins</th>
+    <td><%= @player.wins %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Assault Score</th>
+    <td><%= @player.assault_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Engineer Score</th>
+    <td><%= @player.engineer_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Support Score</th>
+    <td><%= @player.support_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Recon Score</th>
+    <td><%= @player.recon_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Vehicle Score</th>
+    <td><%= @player.vehicle_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Award Score</th>
+    <td><%= @player.award_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Bonus Score</th>
+    <td><%= @player.bonus_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">General Score</th>
+    <td><%= @player.general_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Objective Score</th>
+    <td><%= @player.objective_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Squad Score</th>
+    <td><%= @player.squad_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Team Score</th>
+    <td><%= @player.team_score %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Team Kills</th>
+    <td><%= @player.team_kills %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Score Rank</th>
+    <td><%= @player.score_rank %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Last Online</th>
+    <td><%= @player.last_online %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Last Server Address</th>
+    <td><%= @player.last_server_address %></td>
+  </tr>
+  <tr>
+    <th style="text-align:right;padding-right:5px">Last Server Name</th>
+    <td><%= @player.last_server_name %></td>
+  </tr>
+</table>

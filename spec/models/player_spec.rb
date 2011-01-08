@@ -1,9 +1,19 @@
 require 'spec_helper'
 
 describe Player do
+  it 'should generate a url the the players reddit account' do
+    player = Player.new(:reddit_name => 'yelvert')
+    player.reddit_url.should eql('http://www.reddit.com/user/yelvert')
+  end
+  
+  it 'should generate a url to the players bfbcs stats' do
+    player = Player.new(:game_name => 'yelvert', :platform => 'PC')
+    player.bfbcs_url.should eql('http://bfbcs.com/stats_pc/yelvert')
+  end
+  
   it 'should build a player from the bfbc2 stats api' do
     api_return = '{
-      "name": "BBHoss",
+      "name": "yelvert",
       "platform": "pc",
       "rank": 30,
       "rank_name": "SECOND LIEUTENANT III",
@@ -62,7 +72,7 @@ describe Player do
           "name": "! TBGclan.com | CONQ HARD GUNG HO STYLE!"
       }
     }'
-    player = Player.new(:reddit_name => "BBHoss", :game_name => "BBHoss", :platform => "PC")
+    player = Player.new(:reddit_name => "yelvert", :game_name => "yelvert", :platform => "PC")
     player.build_from_api(JSON.parse(api_return))
     player.clan_tag.should eql("CBB")
     player.rank.should eql(30)

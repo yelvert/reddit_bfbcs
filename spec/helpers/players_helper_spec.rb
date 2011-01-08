@@ -1,3 +1,3 @@
 require 'spec_helper'
-describe PlayerHelper do
+describe PlayersHelper do
 end
