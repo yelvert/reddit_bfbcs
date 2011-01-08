@@ -1,4 +1,7 @@
 RedditBFBC2::Application.routes.draw do
-  get "leaderboard/index"
-  root :to => "leaderboard#index"
+  resources :players, :only => [:index, :show, :new, :create] do
+    get 'update', :to => {:action => 'update'}
+  end
+  
+  root :to => "players#index"
 end

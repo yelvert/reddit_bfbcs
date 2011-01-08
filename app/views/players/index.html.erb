@@ -1,0 +1,44 @@
+<%= link_to "Add Yourself", new_player_path %>
+<br /><br />
+<div style="width: 1000px">
+  <table id="leaderboard" style="width: 100%">
+    <thead>
+      <tr>
+        <th>Baddit Rank</th>
+        <th>Reddit Username</th>
+        <th>InGame Name</th>
+        <th>Platform</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% baddit_rank = 0 %>
+      <% @players.each do |player| %>
+        <tr>
+          <td><%= baddit_rank += 1 %></td>
+          <td><%= link_to player.reddit_name, "http://www.reddit.com/user/#{CGI::escape(player.reddit_name)}" %></td>
+          <td><%= link_to player.game_name, "http://bfbcs.com/stats_#{player.platform.downcase}/#{CGI::escape(player.game_name)}" %></td>
+          <td><%= player.platform.upcase %></td>
+          <td><%= player.score %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<script type="text/javascript" charset="utf-8">
+  $(function() {
+    leaderboardTable = $("#leaderboard").dataTable({
+      "bJQueryUI": true,
+      "sPaginationType": "full_numbers",
+      "aLengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
+      "iDisplayLength": 100,
+      "aoColumns": [
+        {"bSearchable": true},
+        {"bSearchable": true},
+        {"bSearchable": true},
+        {"bSearchable": true},
+        {"bSearchable": true}
+      ]
+    })
+  })
+</script>
