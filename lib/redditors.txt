@@ -24,7 +24,7 @@
     color: black
     }
 #header-bottom-right {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=2naynsiy1v5n0wgbnbpplb011gc5da0iogn3);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=yp40redvrcwzdhm54vgwk7c56yb95u04o3vz);
     padding: 5px;
     text-transform: uppercase;
     -moz-border-radius-topleft: 7px;
@@ -41,7 +41,7 @@
     margin-right: 0
     }
 .pagename a {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_2.png?v=jylbp7ay8yzm7czbf9q5mxcxyi4x9qk36c4m);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_2.png?v=ksclomhaw1maoy4r1b0mvh5g9pmul4mzl6b9);
     background-repeat: no-repeat;
     font-size: 1px;
     padding: 43px 146px 0 0;
@@ -51,12 +51,12 @@
     top: 9px
     }
 #header-bottom-left .tabmenu li.selected a {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_4.png?v=ix55l1fh2xtio7y6tr22d58fcgggrbrrsmbo);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_4.png?v=44l6n12q1hndzk69kx1gd360x9wwz8cjxlji);
     color: black;
     border-width: 0
     }
 #header-bottom-left .tabmenu {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=y52n9qjbkq8ffg994eaq96mzvtm0h0f54l3p);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=537buvep5mo72itpow1konscdoyic38ow8sk);
     padding: 10px;
     -moz-border-radius-topleft: 7px;
     -webkit-border-top-left-radius: 7px;
@@ -68,25 +68,25 @@
 #header-bottom-left .tabmenu li a {
     color: white;
     text-transform: uppercase;
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=33vb8csfwo1r90ik5lu1nhlb8p8ih7g56pg0);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=ypmqn53erypuw6h582ka2ah9a1jcu2jiuic5);
     margin: 0 5px;
     padding: 5px
     }
 #header-bottom-left .tabmenu li a:hover {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_15.png?v=ezo5ix7p710mcvcn5r1hqw0kjp6cg0h4nhmq)
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_15.png?v=zphyl907hn0e9rti7r9qxotabrv1bds4ayy6)
     }
 #header-bottom-left .tabmenu li.selected a:hover {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_4.png?v=3zk9yp1i6bdassf59gaf0fo9cszfn3gv4y1b)
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_4.png?v=byhbbwnp3g6doda0ux720f802jxommxf080z)
     }
 #header-bottom-left .tabmenu li {
     margin: 0
     }
 #sr-header-area {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=jhmya3z43gzewzobp0hpnhoabc61e9ai5473);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_3.png?v=7nt0hdgcwlptpystpu0bjfd4o86278yxhkkk);
     border-bottom: 0px
     }
 #header {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_15.png?v=gq4tmlo8rig3dnfyvxbpe6zakfonwrwe3w0f);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_15.png?v=qjt8c9msj9rx0ip2i80efay4d1ofwwsxaioh);
     padding: 0;
     border-bottom: 2px solid black
     }
@@ -110,31 +110,31 @@
     }
 /*** ARROWS UP/DOWNMODS ***/
 .arrow.upmod {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_9.png?v=t0wdg8awo42iafsatey3w3x87rzb9e1xk1ek);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_9.png?v=jp7d7qwwfwqsey1tv82bogcyokiomy5pe9a7);
     background-position: 0 0
     }
 .arrow.downmod {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_8.png?v=h1abqnq1ageplny28p4uy89mlvgaa9euyixb);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_8.png?v=bhr0n6hctkqkwdb8dzr71kve7d3elt89v24x);
     background-position: 0 0
     }
 .arrow.up {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_11.png?v=t7cqzmew9y4ssw2sqsmdypvpb327ilygzvz7);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_11.png?v=xtwnwu0xfhmby8i129wqandq2m5enu22d3ez);
     background-position: 0 0;
     opacity: 0.65
     }
 .arrow.down {
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_5.png?v=ku3qgkmk92pjvd0eo5h78tk63od3gvi9o7z4);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_5.png?v=v8quznp4y9joqqj2baid45oalmc7n3sawtpg);
     background-position: 0 0;
     opacity: 0.65
     }
 /*CUSTOM MAIL ICONS*/
 /* Credit ElusiveMoose */
 #mail.nohavemail:after {
-    content: url(http://thumbs.reddit.com/t5_2rgyt_0.png?v=ywasfpl1m5dcajlqpb26n4v7guk18c06xoau);
+    content: url(http://thumbs.reddit.com/t5_2rgyt_0.png?v=n8hgv55dp7is3v0gd86pe27rzmhhcp7mrw53);
     vertical-align: middle
     }
 #mail.havemail:after {
-    content: url(http://thumbs.reddit.com/t5_2rgyt_12.png?v=av0yorpkzazu50gii0uahqfb4r60a9ul4e5a);
+    content: url(http://thumbs.reddit.com/t5_2rgyt_12.png?v=06av2ad3y1qviip93a1k4otm5vayllf6lo8j);
     vertical-align: middle
     }
 #mail.nohavemail img, #mail.havemail img {
@@ -146,7 +146,7 @@
     padding-top: 393px;
     padding-right: 1px;
     /* change the background-image to whatever you want */
-    background-image: url(http://thumbs.reddit.com/t5_2rgyt_13.png?v=ntbdluppufi2pqc882fbyw5661amooti9ra9);
+    background-image: url(http://thumbs.reddit.com/t5_2rgyt_13.png?v=l9domdvbwi44bfj6ibah3fztfy9a66ycpb6b);
     /* leave these properties as is */
     background-repeat: no-repeat
     }
@@ -3134,7 +3134,7 @@
     content: "(PHILTHYBIZZLE)[PS3]"
     }
 .author[href$="/orange_jooze"]:after {
-    content: "(Col. W. Kurtz)[PC]"
+    content: "(Corran1138)[PC]"
     }
 .author[href$="/orange_kevin"]:after {
     content: "(*SB* Walton)[PC]"
@@ -4806,4 +4806,10 @@
     }
 .author[href$="/_Spy__"]:after {
     content: "(Kuznatzov)[PS3]"
+    }
+.author[href$="/IronChin"]:after {
+    content: "(Ghost_Gaunt)[PS3]"
+    }
+.author[href$="/patdog1"]:after {
+    content: "(tect0n)[PC]"
     }

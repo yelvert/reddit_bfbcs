@@ -4,7 +4,9 @@ class Player < ActiveRecord::Base
   validates_uniqueness_of :reddit_name
   validates_uniqueness_of :game_name, :scope => :platform
   
-  def validate
+  validate :get_stats_for_player
+  
+  def get_stats_for_player
     reddit = URI.parse("http://www.reddit.com/user/#{CGI::escape(self.reddit_name)}")
     if Net::HTTP.get_response(reddit).class == Net::HTTPNotFound
       errors.add_to_base("That Reddit user does not seem to exist.")
