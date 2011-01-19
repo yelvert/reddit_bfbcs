@@ -20,6 +20,8 @@ class Player < ActiveRecord::Base
       else
         if api["players"].size == 1
           self.build_from_api(api["players"][0])
+        else
+          self.build_from_api({})
         end
       end
     end
@@ -34,35 +36,35 @@ class Player < ActiveRecord::Base
   end
   
   def build_from_api(api)
-    self.clan_tag = api["clantag"].to_s rescue nil
-    self.rank = api["rank"].to_i rescue nil
-    self.rank_name = api["rank_name"].to_s rescue nil
-    self.veteren_level = api["veteran"].to_i rescue nil
-    self.score = api["score"].to_i rescue nil
-    self.kills = api["kills"].to_i rescue nil
-    self.deaths = api["deaths"].to_i rescue nil
-    self.time_played = api["time"].to_f.round rescue nil
-    self.skill_level = api["elo"].to_f.round rescue nil
+    self.clan_tag = api["clantag"].to_s rescue ""
+    self.rank = api["rank"].to_i rescue 0
+    self.rank_name = api["rank_name"].to_s rescue ""
+    self.veteren_level = api["veteran"].to_i rescue 0
+    self.score = api["score"].to_i rescue 0
+    self.kills = api["kills"].to_i rescue 0
+    self.deaths = api["deaths"].to_i rescue 0
+    self.time_played = api["time"].to_f.round rescue 0
+    self.skill_level = api["elo"].to_f.round rescue 0
     self.last_update = Time.parse(api["date_lastupdate"]) rescue nil
     self.lastcheck = Time.parse(api["date_lastcheck"]) rescue nil
-    self.accuracy = api["general"]["accuracy"].to_f rescue nil
-    self.dog_tags_taken = api["general"]["dogt"].to_i rescue nil
-    self.games_played = api["general"]["games"].to_i rescue nil
-    self.losses = api["general"]["losses"].to_i rescue nil
-    self.wins = api["general"]["wins"].to_i rescue nil
-    self.assault_score = api["general"]["sc_assault"].to_i rescue nil
-    self.engineer_score = api["general"]["sc_demo"].to_i rescue nil
-    self.support_score = api["general"]["sc_support"].to_i rescue nil
-    self.recon_score = api["general"]["sc_recon"].to_i rescue nil
-    self.vehicle_score = api["general"]["sc_vehicle"].to_i rescue nil
-    self.award_score = api["general"]["sc_award"].to_i rescue nil
-    self.bonus_score = api["general"]["sc_bonus"].to_i rescue nil
-    self.general_score = api["general"]["sc_general"].to_i rescue nil
-    self.objective_score = api["general"]["sc_objective"].to_i rescue nil
-    self.squad_score = api["general"]["sc_squad"].to_i rescue nil
-    self.team_score = api["general"]["sc_team"].to_i rescue nil
-    self.team_kills = api["general"]["teamkills"].to_i rescue nil
-    self.score_rank = api["general"]["score_rank"].to_i rescue nil
+    self.accuracy = api["general"]["accuracy"].to_f rescue 0
+    self.dog_tags_taken = api["general"]["dogt"].to_i rescue 0
+    self.games_played = api["general"]["games"].to_i rescue 0
+    self.losses = api["general"]["losses"].to_i rescue 0
+    self.wins = api["general"]["wins"].to_i rescue 0
+    self.assault_score = api["general"]["sc_assault"].to_i rescue 0
+    self.engineer_score = api["general"]["sc_demo"].to_i rescue 0
+    self.support_score = api["general"]["sc_support"].to_i rescue 0
+    self.recon_score = api["general"]["sc_recon"].to_i rescue 0
+    self.vehicle_score = api["general"]["sc_vehicle"].to_i rescue 0
+    self.award_score = api["general"]["sc_award"].to_i rescue 0
+    self.bonus_score = api["general"]["sc_bonus"].to_i rescue 0
+    self.general_score = api["general"]["sc_general"].to_i rescue 0
+    self.objective_score = api["general"]["sc_objective"].to_i rescue 0
+    self.squad_score = api["general"]["sc_squad"].to_i rescue 0
+    self.team_score = api["general"]["sc_team"].to_i rescue 0
+    self.team_kills = api["general"]["teamkills"].to_i rescue 0
+    self.score_rank = api["general"]["score_rank"].to_i rescue 0
     self.last_online = Time.parse(api["lastonline"]) rescue nil
     self.last_server_address = api["server"]["addr"].to_s rescue nil
     self.last_server_name = api["server"]["name"].to_s rescue nil
