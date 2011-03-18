@@ -1,6 +1,15 @@
 class PlayersController < ApplicationController
   def index
-    @players = Player.order('score DESC')
+    respond_to do |wants|
+      wants.html {}
+      wants.json {
+        @players = Player.jtable_query(params[:jTableQuery])
+        if params[:jTableQuery][:sort_column].blank?
+          @players = @players.order('score DESC')
+        end
+        render :json => jtable_for_json(@players, params[:jTableQuery])
+      }
+    end
   end
 
   def show

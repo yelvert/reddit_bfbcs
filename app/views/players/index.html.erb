@@ -4,47 +4,26 @@ If you don't show up or your stats are wrong, be patient, stats can take up to 4
 <br />
 <strong>NOTICE: Due to data loss, if your name is not in the list and you have already added yourself to the leaderboard, please Re-Add yourself. (Sorry I&apos;ll try to not let that happen again.)</strong>
 <br /><br />
-<div style="width: 1000px">
-  <table id="leaderboard" style="width: 100%">
-    <thead>
-      <tr>
-        <th>Baddit Rank</th>
-        <th>Reddit Username</th>
-        <th>InGame Name</th>
-        <th>Platform</th>
-        <th>Total Score</th>
-        <th>Score Per Minute</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% baddit_rank = 0 %>
-      <% @players.each do |player| %>
-        <tr>
-          <td><%= baddit_rank += 1 %></td>
-          <td><%= link_to player.reddit_name, player.reddit_url %></td>
-          <td><%= link_to player.game_name, player %></td>
-          <td><%= player.platform.upcase %></td>
-          <td><%= player.score.nil? ? 0 : player.score %></td>
-          <td><%= (player.score.nil? or player.time_played.nil? or (player.score.to_f/(player.time_played.to_i/60)).nan? or (player.score.to_f/(player.time_played.to_i/60)).infinite?) ? 0 : sprintf("%0.02f", player.score.to_f/(player.time_played.to_i/60)) %></td>
-        </tr>
-      <% end %>
-    </tbody>
-  </table>
-</div>
+<div id="leaderboard"></div>
 <script type="text/javascript" charset="utf-8">
   $(function() {
-    leaderboardTable = $("#leaderboard").dataTable({
-      "bJQueryUI": true,
-      "sPaginationType": "full_numbers",
-      "aLengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
-      "iDisplayLength": 100,
-      "aoColumns": [
-        {"bSearchable": true, "sType": 'numeric'},
-        {"bSearchable": true},
-        {"bSearchable": true},
-        {"bSearchable": true},
-        {"sType": 'numeric'},
-        {"sType": 'numeric'}
+    $("#leaderboard").jTable({
+      width: '100%',
+      singleColumnSearch: true,
+      indexUrl: '/players.json',
+      viewLink: false,
+      editLink: false,
+      destroyLink: false,
+      columns: [
+        {heading: 'Baddit Rank', attribute: 'baddit_rank', searchable: false, sortable:false},
+        {heading: 'Reddit Username', attribute: 'reddit_name'},
+        {heading: 'InGame Username', attribute: 'game_name'},
+        {heading: 'Platform', attribute: 'platform'},
+        {heading: 'Rank', attribute: 'rank'},
+        {heading: 'Total Score', attribute: 'score'},
+        {heading: 'Score Per Minute', attribute: 'score_per_minute', searchable: false, sortable:false},
+        {heading: 'Kills', attribute: 'kills'},
+        {heading: 'Deaths', attribute: 'deaths'}
       ]
     })
   })

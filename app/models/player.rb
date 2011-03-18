@@ -6,6 +6,28 @@ class Player < ActiveRecord::Base
   
   validate :get_stats_for_player
   
+  jtable :baddit_rank, :reddit_name, :game_name, :platform, :score, :score_per_minute, :rank, :kills, :deaths
+  
+  def jtable_attribute_rank
+    "#{self.rank_name} (#{self.rank})"
+  end
+  
+  def jtable_attribute_score_per_minute
+    self.score_per_minute
+  end
+  
+  def jtable_attribute_reddit_name
+    %Q[<a href="#{self.reddit_url}">#{self.reddit_name}</a>]
+  end
+  
+  def jtable_attribute_game_name
+    %Q[<a href="/players/#{self.id}">#{self.game_name}</a>]
+  end
+  
+  def jtable_attribute_baddit_rank
+    Player.order('score DESC').index(self)+1
+  end
+  
   def get_stats_for_player
     reddit = URI.parse("http://www.reddit.com/user/#{CGI::escape(self.reddit_name)}")
     if Net::HTTP.get_response(reddit).class == Net::HTTPNotFound
@@ -25,6 +47,10 @@ class Player < ActiveRecord::Base
         end
       end
     end
+  end
+  
+  def score_per_minute
+    (self.score.nil? or self.time_played.nil? or (self.score.to_f/(self.time_played.to_i/60)).nan? or (self.score.to_f/(self.time_played.to_i/60)).infinite?) ? 0 : sprintf("%0.02f", self.score.to_f/(self.time_played.to_i/60))
   end
   
   def reddit_url

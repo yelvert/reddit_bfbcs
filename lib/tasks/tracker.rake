@@ -47,4 +47,28 @@ namespace :badditors do
       end
     end
   end
+  
+  desc "Update Stats"
+  task :update => :environment do
+    Player.all.each do |player|
+      reddit_url = URI.parse("http://www.reddit.com/user/#{CGI::escape(player.reddit_name)}") rescue next
+      unless Net::HTTP.get_response(reddit_url).class == Net::HTTPNotFound
+        stats_url = URI.parse("http://api.bfbcs.com/api/#{player.platform.downcase}?players=#{CGI::escape(player.game_name)}&fields=general,online") rescue next
+        api = JSON.parse(Net::HTTP.get(stats_url)) rescue next
+        if api["error"]
+          Rails.logger.info "Stat Fetch error -- #{api.inspect}"
+          next
+        end
+        if api["players"].size == 1
+          Rails.logger.info "Updating Player #{player.inspect} with #{api}"
+          player.build_from_api(api["players"][0])
+          if player.save
+            Rails.logger.info "Updated Player #{player.inspect}"
+          else
+            Rails.logger.info "Failed to Update Player #{player.inspect}"
+          end
+        end
+      end
+    end
+  end
 end

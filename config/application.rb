@@ -37,13 +37,13 @@ module RedditBFBC2
       "rails",
       "underscore"
     ]
-    config.action_view.javascript_expansions[:datatables] = ["dataTables"]
+    config.action_view.javascript_expansions[:jtable] = ["jTable"]
     
     config.action_view.stylesheet_expansions[:defaults] = [
       "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/themes/smoothness/jquery-ui.css",
       "main"
     ]
-    config.action_view.stylesheet_expansions[:datatables] = ["datatables_page", "datatables_table"]
+    config.action_view.stylesheet_expansions[:jtable] = ["jTable"]
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
